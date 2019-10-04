@@ -1,16 +1,16 @@
 <h1>About</h1>
-<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
+<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde" target="_blank">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
 <h4>利用 cmsimde 建立靜態網誌方法:</h4>
 <p>1. 在 github 建立倉儲, git clone 到近端</p>
-<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
-<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
+<p>2. 參考 <a href="https://github.com/mdecourse/newcms" target="_blank">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
+<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde" target="_blank">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
 <p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
 <p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
 <p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
 <p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
-<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
+<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git" target="_blank">https://github.com/mdecourse/newcms.git</a></p>
 <h1>Develop</h1>
-<p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
+<p><a href="https://github.com/mdecourse/cmsimde" target="_blank">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
 <h1>Weekly progress</h1>
@@ -18,14 +18,14 @@
 <p>第一+二週練習影片:</p>
 <p></p>
 <p>1.先將USB格式化為exFat(<span>單一檔案</span><b>大小</b><span>上限可達64ZB</span>)</p>
-<p>2.將<a href="https://drive.google.com/file/d/1fxMdqdCoCL__O1IpZ-Sv-A_4-c77Wx4E/view?usp=sharing">2019Fall可攜套件.7z</a>下在至USB內並進行解壓縮</p>
-<p>3.進入<a href="https://github.com">Github</a> <span>，</span>創建一個新的倉儲,並命名為''cad2019''</p>
+<p>2.將<a href="https://drive.google.com/file/d/1fxMdqdCoCL__O1IpZ-Sv-A_4-c77Wx4E/view?usp=sharing" target="_blank">2019Fall可攜套件.7z</a>下在至USB內並進行解壓縮</p>
+<p>3.進入<a href="https://github.com" target="_blank">Github</a> <span>，</span>創建一個新的倉儲,並命名為''cad2019''</p>
 <p>4.git clone至自身的USB</p>
 <p>5.並進行身分輸入:</p>
 <p> git config  --global user.name "s40723242"</p>
 <p><span> git config  --global user.email "40723242@gm.nfu.edu.tw"</span></p>
 <p><span> git config  --global http.proxy [2001:288:6004:17:7]:3128 </span></p>
-<p>6.git submodule add <a href="https://github.com/mdecourse/cmsimde.git">https://github.com/mdecourse/cmsimde.git</a> cmsimde</p>
+<p>6.git submodule add <a href="https://github.com/mdecourse/cmsimde.git" target="_blank">https://github.com/mdecourse/cmsimde.git</a> cmsimde</p>
 <p>7.下載附件 python -m pip install flask_cors</p>
 <p>8.進入 cmsimde 輸入 python wsgi.py 編輯頁面</p>
 <p>9.編輯完進入靜態網頁<span>，退到cad2019推上Github</span></p>
@@ -46,6 +46,16 @@
 <p><span>9.在執行一次cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span></p>
 <p><span>10.在輸入mingw32-make &gt; Done</span></p>
 <h2>Week-4</h2>
+<p>將邁入第五週<span>，-本週自行編輯網站- </span></p>
 <h2>Week-5</h2>
 <h2>Week-6</h2>
 <h2>Week-7</h2>
+<h1>Own</h1>
+<h2>MY repositories</h2>
+<p><a href="https://github.com/s40723242/cad2019" target="_blank">MY repositories</a></p>
+<h1><span>Learning</span></h1>
+<h2>2019 Fall 電腦輔助設計實習課程網頁</h2>
+<p><a href="http://mde.tw/cad2019/content/index.html" target="_blank">2019 Fall 電腦輔助設計實習課程網頁</a></p>
+<h2>KMOLab-Youtube</h2>
+<p>KMOLab-Youtube</p>
+<div class="pl-4"><form></form></div>
