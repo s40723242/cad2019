@@ -1,19 +1,6 @@
-<h1>About</h1>
-<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde" target="_blank">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
-<h4>利用 cmsimde 建立靜態網誌方法:</h4>
-<p>1. 在 github 建立倉儲, git clone 到近端</p>
-<p>2. 參考 <a href="https://github.com/mdecourse/newcms" target="_blank">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
-<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde" target="_blank">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
-<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
-<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
-<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
-<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
-<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git" target="_blank">https://github.com/mdecourse/newcms.git</a></p>
-<h1>Develop</h1>
-<p><a href="https://github.com/mdecourse/cmsimde" target="_blank">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
-<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
-<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
 <h1>Weekly progress</h1>
+<p><strong>Personal  repositories:</strong></p>
+<p><a href="https://github.com/s40723242/cad2019" target="_blank">MY repositories</a></p>
 <p><strong><span style="color: #000000;">Week-1+2:</span></strong></p>
 <p>第一+二週練習影片:</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/8ciCZ0-j_e4" width="560"></iframe></p>
@@ -74,7 +61,7 @@
 <p> git config  --global user.name "s40723242"</p>
 <p><span> git config  --global user.email "40723242@gm.nfu.edu.tw"</span></p>
 <p><span> git config  --global http.proxy [2001:288:6004:17:7]:3128 </span></p>
-<p>6.git submodule add <a href="https://github.com/mdecourse/cmsimde.git" target="_blank">https://github.com/mdecourse/cmsimde.git</a> cmsimde</p>
+<p>6.git submodule add<span> </span><a href="https://github.com/mdecourse/cmsimde.git" target="_blank">https://github.com/mdecourse/cmsimde.git</a> cmsimde</p>
 <p>7.下載附件 python -m pip install flask_cors</p>
 <p>8.進入 cmsimde 輸入 python wsgi.py 編輯頁面</p>
 <p>9.編輯完進入靜態網頁<span>，退到cad2019推上Github</span></p>
@@ -99,14 +86,42 @@
 <h2>Week-5</h2>
 <h2>Week-6</h2>
 <h2>Week-7</h2>
-<h1>Own</h1>
-<p><a href="https://s40723242.github.io/cad2019/content/MY%C2%A0repositories.html" target="_blank">MY repositories</a></p>
-<h2>MY repositories</h2>
-<p><a href="https://github.com/s40723242/cad2019" target="_blank">MY repositories</a></p>
+<h1>Website architecture</h1>
+<p>About</p>
+<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde" target="_blank">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
+<h4>利用 cmsimde 建立靜態網誌方法:</h4>
+<p>1. 在 github 建立倉儲, git clone 到近端</p>
+<p>2. 參考 <a href="https://github.com/mdecourse/newcms" target="_blank">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
+<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde" target="_blank">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
+<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
+<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
+<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
+<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
+<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git" target="_blank">https://github.com/mdecourse/newcms.git</a></p>
+<p>Develop</p>
+<p><a href="https://github.com/mdecourse/cmsimde" target="_blank">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
+<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
+<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
+<h1>video production</h1>
+<p>我們使用"Sharex" (圖一)進行網頁拍攝,並使用"aegisub"(圖二)做字幕編輯,最後再由"<span>avidemux"(圖三)進行影片檔跟字幕檔的合併.</span></p>
+<p><span><a href="https://getsharex.com/" target="_blank">Sharex</a>(圖一)</span></p>
+<p><span><img alt="" height="246" src="/images/capsule_616x353.jpg" width="429"/></span></p>
+<p><span><a href="http://www.aegisub.org/" target="_blank">aegisub</a>(圖二)</span></p>
+<p><span><img alt="" height="430" src="/images/0002823218_B.png" width="430"/></span></p>
+<p><span><a href="http://www.avidemux.org/nightly/win64_support/" target="_blank">avidemux</a>(圖三)</span></p>
+<p><span><img alt="" height="239" src="/images/avidemux_story.jpg" width="449"/></span></p>
 <h1>Learning</h1>
+<h2>Tools</h2>
+<p><a href="https://github.com/" target="_blank">Github</a></p>
+<p><a href="http://solvespace.com/index.pl" target="_blank">SolveSpace</a></p>
+<p><span><a href="https://getsharex.com/" target="_blank">Sharex</a></span></p>
+<p><span><a href="http://www.aegisub.org/" target="_blank">aegisub</a></span></p>
+<p><span><a href="http://avidemux.sourceforge.net/" target="_blank">avidemux</a></span></p>
+<h2 class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="en" tabindex="0">Information</span></h2>
+<p><span lang="en" tabindex="0"></span></p>
+<h2>Website</h2>
 <p><a href="http://mde.tw/cad2019/content/index.html" target="_blank">2019 Fall 電腦輔助設計實習課程網頁</a></p>
 <p><a href="https://www.youtube.com/channel/UCJ0Ye3mhMApH0yxAcwCXs5g" target="_blank">KMOLab-Youtube</a></p>
-<h2>2019 Fall 電腦輔助設計實習課程網頁</h2>
 <p><a href="http://mde.tw/cad2019/content/index.html" target="_blank">2019 Fall 電腦輔助設計實習課程網頁</a></p>
 <h2>KMOLab-Youtube</h2>
 <p><a href="https://www.youtube.com/channel/UCJ0Ye3mhMApH0yxAcwCXs5g" target="_blank">KMOLab-Youtube</a></p>

@@ -1,4 +1,6 @@
 <h1>Weekly progress</h1>
+<p><strong>Personal  repositories:</strong></p>
+<p><a href="https://github.com/s40723242/cad2019" target="_blank">MY repositories</a></p>
 <p><strong><span style="color: #000000;">Week-1+2:</span></strong></p>
 <p>第一+二週練習影片:</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/8ciCZ0-j_e4" width="560"></iframe></p>
@@ -33,58 +35,22 @@
 <p><span>10.在輸入mingw32-make &gt; Done</span></p>
 <p><span></span></p>
 <p><strong>Week-4:</strong></p>
-<p>將邁入第五週<span>，-本週自行編輯網站- ，並將自評及互評填寫完畢<a href="https://forms.gle/raTtrfjv8cMMVSZd6">課程評量表單</a></span></p>
-<p><br/><span></span></p>
+<p><span>1.本週自行編輯網站，編輯自身影片加上字幕並加上浮水印.</span></p>
+<p><span>錄影:<a href="https://getsharex.com/" target="_blank">Sharex</a></span></p>
+<p><span>字幕:<a href="http://www.aegisub.org/" target="_blank">aegisub</a></span></p>
+<p><span>整合:<a href="http://www.avidemux.org/nightly/win64_support/" target="_blank">avidemux</a></span></p>
 <p><strong>Week-5:</strong></p>
+<p><strong>1.</strong>solvespace繪製練習</p>
+<p><span>2.將自評及互評填寫完畢<a href="https://forms.gle/raTtrfjv8cMMVSZd6">課程評量表單</a></span></p>
 <p><br/><strong></strong></p>
 <p><strong>Week-6:</strong></p>
 <p><br/><strong></strong></p>
 <p><strong>Week-7:</strong></p>
 <p><strong></strong></p>
 <p><br/><strong></strong></p>
-<p><a href="https://s40723242.github.io/cad2019/content/Week-1+2.html" target="_blank">Week-1+2</a></p>
-<p><span><a href="https://s40723242.github.io/cad2019/content/Week-3.html" target="_blank">Week-3</a><br/></span></p>
-<p><span><a href="https://s40723242.github.io/cad2019/content/Week-4.html" target="_blank">Week-4</a><br/></span></p>
-<p><span><a href="https://s40723242.github.io/cad2019/content/Week-5.html" target="_blank">Week-5</a><br/></span></p>
-<p><span><a href="https://s40723242.github.io/cad2019/content/Week-6.html" target="_blank">Week-6</a><br/></span></p>
-<p><span><a href="https://s40723242.github.io/cad2019/content/Week-7.html" target="_blank">Week-7</a><br/></span></p>
-<h2>Week-1+2</h2>
-<p>第一+二週練習影片:</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/8ciCZ0-j_e4" width="560"></iframe></p>
-<p>1.先將USB格式化為exFat(<span>單一檔案</span><b>大小</b><span>上限可達64ZB</span>)</p>
-<p>2.將<a href="https://drive.google.com/file/d/1fxMdqdCoCL__O1IpZ-Sv-A_4-c77Wx4E/view?usp=sharing" target="_blank">2019Fall可攜套件.7z</a>下在至USB內並進行解壓縮</p>
-<p>3.進入<a href="https://github.com" target="_blank">Github</a> <span>，</span>創建一個新的倉儲,並命名為''cad2019''</p>
-<p>4.git clone至自身的USB</p>
-<p>5.並進行身分輸入:</p>
-<p> git config  --global user.name "s40723242"</p>
-<p><span> git config  --global user.email "40723242@gm.nfu.edu.tw"</span></p>
-<p><span> git config  --global http.proxy [2001:288:6004:17:7]:3128 </span></p>
-<p>6.git submodule add<span> </span><a href="https://github.com/mdecourse/cmsimde.git" target="_blank">https://github.com/mdecourse/cmsimde.git</a> cmsimde</p>
-<p>7.下載附件 python -m pip install flask_cors</p>
-<p>8.進入 cmsimde 輸入 python wsgi.py 編輯頁面</p>
-<p>9.編輯完進入靜態網頁<span>，退到cad2019推上Github</span></p>
-<p><span>如何推上? git add . <span>⇒ git commit  -m "名稱" ⇒ git push</span></span></p>
-<p><span><span>10.完成</span></span></p>
-<h2>Week-3</h2>
-<p><span>第三週練習影片:</span></p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/YyICUKWmJeQ" width="560"></iframe></p>
-<p><strong>進行Solvespace 編譯</strong></p>
-<p>1.<span>將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe</span></p>
-<p>2.<span>查驗 git 版本是否在"2.13以上"</span></p>
-<p><span>3.git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace(務必在網路穩定地方下進行下載)</span></p>
-<p><span>4.編輯Y:\tmp\solvespace\extlib\angle\CMakeLists.txt 開啟後將第713行及714行前方加上"#"</span></p>
-<p><span>5.將 libpng.dll.a 的編譯，改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中</span></p>
-<p><span>6. cd solvespace &gt;cd extlib &gt;cd libpng &gt;mkdir build &gt; cd build </span></p>
-<p><span>7.輸入cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span></p>
-<p><span>8.輸入mingw32-make &gt; 退到solvespace &gt; mkdir build &gt; cd build</span></p>
-<p><span>9.在執行一次cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span></p>
-<p><span>10.在輸入mingw32-make &gt; Done</span></p>
-<h2>Week-4</h2>
-<p><span>將邁入第五週</span><span>，-本週自行編輯網站- ，並將自評及互評填寫完畢<a href="https://forms.gle/raTtrfjv8cMMVSZd6">課程評量表單</a></span></p>
-<h2>Week-5</h2>
-<h2>Week-6</h2>
-<h2>Week-7</h2>
-<h1>About</h1>
+<p><a href="https://s40723242.github.io/cad2019/content/Week-1+2.html" target="_blank"></a></p>
+<h1>Website architecture</h1>
+<p>About</p>
 <p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde" target="_blank">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
 <h4>利用 cmsimde 建立靜態網誌方法:</h4>
 <p>1. 在 github 建立倉儲, git clone 到近端</p>
@@ -95,18 +61,30 @@
 <p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
 <p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
 <p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git" target="_blank">https://github.com/mdecourse/newcms.git</a></p>
-<h1>Develop</h1>
+<p>Develop</p>
 <p><a href="https://github.com/mdecourse/cmsimde" target="_blank">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
-<h1>Own</h1>
-<p><a href="https://s40723242.github.io/cad2019/content/MY%C2%A0repositories.html" target="_blank">MY repositories</a></p>
-<h2>MY repositories</h2>
-<p><a href="https://github.com/s40723242/cad2019" target="_blank">MY repositories</a></p>
+<h1>video production</h1>
+<p>我們使用"Sharex" (圖一)進行網頁拍攝,並使用"aegisub"(圖二)做字幕編輯,最後再由"<span>avidemux"(圖三)進行影片檔跟字幕檔的合併.</span></p>
+<p><span><a href="https://getsharex.com/" target="_blank">Sharex</a>(圖一)</span></p>
+<p><span><img alt="" height="246" src="/images/capsule_616x353.jpg" width="429"/></span></p>
+<p><span><a href="http://www.aegisub.org/" target="_blank">aegisub</a>(圖二)</span></p>
+<p><span><img alt="" height="430" src="/images/0002823218_B.png" width="430"/></span></p>
+<p><span><a href="http://www.avidemux.org/nightly/win64_support/" target="_blank">avidemux</a>(圖三)</span></p>
+<p><span><img alt="" height="239" src="/images/avidemux_story.jpg" width="449"/></span></p>
 <h1>Learning</h1>
+<h2>Tools</h2>
+<p><a href="https://github.com/" target="_blank">Github</a></p>
+<p><a href="http://solvespace.com/index.pl" target="_blank">SolveSpace</a></p>
+<p><span><a href="https://getsharex.com/" target="_blank">Sharex</a></span></p>
+<p><span><a href="http://www.aegisub.org/" target="_blank">aegisub</a></span></p>
+<p><span><a href="http://avidemux.sourceforge.net/" target="_blank">avidemux</a></span></p>
+<h2 class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="en" tabindex="0">Information</span></h2>
+<p><span lang="en" tabindex="0"></span></p>
+<h2>Website</h2>
 <p><a href="http://mde.tw/cad2019/content/index.html" target="_blank">2019 Fall 電腦輔助設計實習課程網頁</a></p>
 <p><a href="https://www.youtube.com/channel/UCJ0Ye3mhMApH0yxAcwCXs5g" target="_blank">KMOLab-Youtube</a></p>
-<h2>2019 Fall 電腦輔助設計實習課程網頁</h2>
 <p><a href="http://mde.tw/cad2019/content/index.html" target="_blank">2019 Fall 電腦輔助設計實習課程網頁</a></p>
 <h2>KMOLab-Youtube</h2>
 <p><a href="https://www.youtube.com/channel/UCJ0Ye3mhMApH0yxAcwCXs5g" target="_blank">KMOLab-Youtube</a></p>
