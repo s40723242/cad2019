@@ -101,7 +101,7 @@ function chgFrame( url )
   frames[0].location.href=url;
 }
 </script>
-<p><iframe height="500px" id="myfrm" src="https://s40723242.github.io/cad2019/content/Week-7.html" width="90%"></iframe></p>
+<p><iframe height="500px" id="myfrm" src="https://s40723242.github.io/cad2019/content/Week-7.html" width="75%"></iframe></p>
 <p><strong></strong></p>
 <h3><strong>Week-7</strong></h3>
 <p><strong><span class="js-issue-title"> Solvespace 編譯與參數繪圖驗證:</span></strong></p>
@@ -196,6 +196,24 @@ function chgFrame( url )
 <hr/>
 <ul style="list-style-type: disc;">
 <li>
+<script type="text/javascript">
+function show(obj, id)
+{
+  var o=document.getElementById(id);
+  if( o.style.display == 'none' )
+  {
+    o.style.display='';
+    obj.innerHTML='隱藏';
+  }
+  else
+  {
+    o.style.display='none';
+    obj.innerHTML='顯現';
+  }
+}
+</script>
+請用滑鼠點此： <span onclick='show(this, "box")' style="background: green;"> 顯現</span>
+<div id="box" style="display: none; background: white;">
 <p><strong>video production</strong></p>
 <p>我們使用"Sharex" (圖一)進行網頁拍攝,並使用"aegisub"(圖二)或arctime<span>(圖二-1)</span>做字幕編輯,最後再由"<span>avidemux"(圖三)進行影片檔跟字幕檔的合併.</span></p>
 <p><span><a href="https://getsharex.com/" target="_blank">Sharex</a>(圖一)</span></p>
@@ -207,6 +225,8 @@ function chgFrame( url )
 <p><span><img caption="false" height="400" src="/images/20170212100119807.jpg" width="400"/></span></p>
 <p><span><a href="http://www.avidemux.org/nightly/win64_support/" target="_blank">avidemux</a>(圖三)</span></p>
 <p><span><img alt="" height="239" src="/images/avidemux_story.jpg" width="449"/></span></p>
+<p></p>
+</div>
 <hr/><br/><span></span></li>
 <li><strong>solvespace - 快捷鍵</strong></li>
 </ul>
