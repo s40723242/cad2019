@@ -92,6 +92,7 @@
 <p><span><br/><span>2.開啟E:\web_vrep2中的vrep_linefollower.py，新增啟動與停止的指令程式碼，完成後即可操作啟動與停止鈕.(先開V-REP3V-REP3再啟動程式，不然會沒反應)</span></span></p>
 <hr/>
 <p><strong>Week-7</strong></p>
+<p>
 <script type="text/javascript">
 function chgFrame( url )
 {
@@ -101,8 +102,46 @@ function chgFrame( url )
   frames[0].location.href=url;
 }
 </script>
+</p>
 <p><iframe height="500px" id="myfrm" src="https://s40723242.github.io/cad2019/content/Week-7.html" width="75%"></iframe></p>
-<p><strong></strong></p>
+<hr/>
+<p><strong>week8</strong></p>
+<p><strong>1.啟用 CMSiMDE中的網誌系統</strong></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/kmBA2kuugVA" width="560"></iframe></strong></p>
+<p>1.打開<span>leo edit</span></p>
+<p>2.<span>用</span><span>leo edit</span><span>將config中的pelican.leo做編輯</span></p>
+<p><span>3.將近端跑完的指令輸入到倉儲下執行</span></p>
+<p><span>4.完成</span></p>
+<p><strong>2.導入 Webots</strong></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/zRJtB_qgNz4" width="560"></iframe></strong></p>
+<p>1.下載<a href="https://drive.google.com/file/d/1o8cAv-pSUyp69TUGhC7NvEznGrdNP5AC/view?usp=sharing">Webot 2019a.7z</a></p>
+<p>2.<span>複製start_mdecourse.bat並更名start_mdecourse -webot.bat</span></p>
+<p>3.將指令貼上</p>
+<p>4.按stop,開啟<span>start_mdecourse -webot.bat</span></p>
+<p><span>5.完成</span></p>
+<p><strong>3.以ssh對Github 連線</strong></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Fsnl69z5aaQ" width="560"></iframe></strong></p>
+<p>1.將E:\201906_fall\data\portablegit\bin中的sh_for_solvespace_compile複製並更名為sh.exe</p>
+<p>2.進入黑窗輸入<span style="background-color: #ffffff; color: #00ffff;">ssh-keygen -t rsa -b 4096 -C "使用者學號"</span></p>
+<p>3.下載putty並透過putty.chm新增兩枚鑰使</p>
+<p>4.修改<span>start.bat:</span></p>
+<pre><span style="color: #00ffff;"><code>set GIT_HOME=%Disk%:\portablegit\bin\
+set GIT_SSH=%Disk%:\putty\plink.exe</code></span></pre>
+<p>5.修改自身<span>倉儲 .git 中的 config 檔案中的 url 設定</span></p>
+<pre><span style="color: #00ffff;"><code>url = <a href="mailto:git@github.com:mdecourse/cad2019.git">git@github.com:mdecourse/cad2019.git</a><br/></code></span></pre>
+<p>6.設定putty</p>
+<p>7.在Y:\home_mdecourse\.ssh中新增config並加入指令</p>
+<pre><span style="color: #00ffff;"><code>ProxyCommand y:/putty/plink.exe github.com %h %p
+ 
+Host github.com
+    User git
+    Port 22
+    Hostname github.com
+ 
+    TCPKeepAlive yes
+    IdentitiesOnly yes</code></span></pre>
+<p>8.在githun ssh設定中新增鑰使</p>
+<p>9.完成</p>
 <h3><strong>Week-7</strong></h3>
 <p><strong><span class="js-issue-title"> Solvespace 編譯與參數繪圖驗證:</span></strong></p>
 <p><strong><span class="js-issue-title">1.Solvespace 編譯-About中加上學號</span></strong></p>
@@ -194,10 +233,7 @@ function chgFrame( url )
 <p><a href="https://www.youtube.com/channel/UCJ0Ye3mhMApH0yxAcwCXs5g" target="_blank">KMOLab-Youtube</a></p>
 <p></p>
 <hr/>
-<ul style="list-style-type: disc;">
-<ul style="list-style-type: disc;">
-<ul style="list-style-type: disc;">
-<ul style="list-style-type: disc;">
+<ul>
 <li>
 <p><strong>video production</strong></p>
 <p>我們使用"Sharex" (圖一)進行網頁拍攝,並使用"aegisub"(圖二)或arctime<span>(圖二-1)</span>做字幕編輯,最後再由"<span>avidemux"(圖三)進行影片檔跟字幕檔的合併.</span></p>
@@ -213,22 +249,19 @@ function chgFrame( url )
 <hr/><br/><span></span></li>
 <li><strong>solvespace - 快捷鍵</strong></li>
 </ul>
-</ul>
-</ul>
-</ul>
 <p><strong>Sketch:</strong></p>
 <p><strong><img alt="" height="753" src="/images/s1.png" width="423"/></strong></p>
-<p></p>
 <p><strong>Constrain:</strong></p>
 <p><strong><img alt="" height="820" src="/images/s2.png" width="459"/></strong></p>
-<p></p>
 <p><strong>New group:</strong></p>
-<p></p>
 <p><strong><img alt="" height="455" src="/images/x3.png" width="370"/></strong></p>
 <p><strong>Perspective:</strong></p>
-<p></p>
 <p><img alt="" height="145" src="/images/s4.png" width="378"/></p>
-<p></p>
+<hr/>
+<ul>
+<li><strong>git基本指令</strong></li>
+</ul>
+<p><img alt="" height="748" src="/images/AcroRd32_5ocCE6WQng.png" width="500"/></p>
 <hr/>
 <h1>About</h1>
 <p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde" target="_blank">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
