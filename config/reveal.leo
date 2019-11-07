@@ -326,10 +326,10 @@ vertical: body pane on the botton</t>
 <t tx="leo.20191107233132.2"># [Week7](https://s40723242.github.io/cad2019/content/Week-7.html)
 
 &lt;li&gt;&lt;strong&gt; Solvespace 編譯:參數化零組件繪製-About中加上學號&lt;/strong&gt;&lt;/li&gt;
-&lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;strong&gt;Solvespace 參數繪圖驗證&lt;/strong&gt;&lt;/li&gt;
 
-My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
 
 </t>
 <t tx="leo.20191107233137.1">&lt;section data-markdown&gt;
@@ -349,7 +349,7 @@ My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subs
 
 &lt;li&gt;&lt;strong&gt;Task3:新增啟動與停止按鈕&lt;/strong&gt;&lt;/li&gt;
 
-My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)</t>
+[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)</t>
 <t tx="leo.20191107233139.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -362,14 +362,14 @@ My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subs
 <t tx="leo.20191107233139.2"># [Week 2~Week 5](https://s40723242.github.io/cad2019/content/week2-5.html)
 
 &lt;li&gt;&lt;strong&gt;W2:建立個人倉儲並編譯網站&lt;/strong&gt;&lt;/li&gt;
-&lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;strong&gt;W3:透過Solvespace引導式編譯 進行編譯並啟動&lt;/strong&gt;&lt;/li&gt;
-&lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;strong&gt;W4:自行維護網站 並在影片中放入字幕及浮水印&lt;/strong&gt;&lt;/li&gt;
-&lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;strong&gt;W5:進行初步練習並繪製Solvespace零件&lt;/strong&gt;&lt;/li&gt;
 
-My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)</t>
+[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)</t>
 <t tx="leo.20191107233224.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -384,7 +384,7 @@ My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subs
 ### 40723242
 
 &lt;small&gt;
-Created by cs40723242](https://s40723242.github.io/cad2019/content/index.html)
+Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
 &lt;/small&gt;
 
 [個人倉儲](https://github.com/s40723242/cad2019)
@@ -406,12 +406,12 @@ Created by cs40723242](https://s40723242.github.io/cad2019/content/index.html)
 <t tx="leo.20191107233240.2"># [Week 8](https://s40723242.github.io/cad2019/content/week8.html)
 
 &lt;li&gt;&lt;strong&gt;Task1:啟用 CMSiMDE中的網誌系統&lt;/strong&gt;&lt;/li&gt;
-&lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;strong&gt;Task2:導入 Webots&lt;/strong&gt;&lt;/li&gt;
-&lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;strong&gt;Task3:以ssh對Github 連線&lt;/strong&gt;&lt;/li&gt;
 
-My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
 </t>
 </tnodes>
 </leo_file>
