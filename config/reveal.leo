@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
@@ -13,28 +10,43 @@
 <v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180902120523.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180902120523.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180902120523.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180902120523.4" a="E"><vh>html</vh>
+<v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
+<v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
+<v t="leo.20180902120523.3"><vh>@clean index.html</vh>
+<v t="leo.20180902120523.4"><vh>html</vh>
 <v t="leo.20180902120523.5"><vh>head</vh></v>
-<v t="leo.20180902120523.6" a="E"><vh>body</vh>
-<v t="leo.20180902120523.7" a="E"><vh>reveal div</vh>
-<v t="leo.20180902120523.8" a="E"><vh>slides div</vh>
-<v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180902120523.6"><vh>body</vh>
+<v t="leo.20180902120523.7"><vh>reveal div</vh>
+<v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20191107233224.1"><vh>封面投影片</vh>
+<v t="leo.20191107233224.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20191107233139.1"><vh>w2~5</vh>
+<v t="leo.20191107233139.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20191107233137.1"><vh>w6</vh>
+<v t="leo.20191107233137.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20191107233132.1"><vh>w7</vh>
+<v t="leo.20191107233132.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20191107233240.1"><vh>w8</vh>
+<v t="leo.20191107233240.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180902120523.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18" a="E"><vh>導入影片</vh>
+<v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -48,16 +60,17 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CMSimfly 網際內容管理
+<t tx="leo.20180902120523.10">## s40723242 網際內容管理
 
-### KMOLab
+### 40723242
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
 &lt;/small&gt;
 
-[CMSimfly 網誌](./../blog/index.html)
-
+[個人倉儲](https://github.com/s40723242/cad2019)
+[個人網站](https://s40723242.github.io/cad2019/content/index.html)
+[個人網誌](https://s40723242.github.io/cad2019/blog/index.html)
 
 </t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
@@ -170,7 +183,7 @@ make.start()
 <t tx="leo.20180902120523.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
-CMSimfly 網際內容管理
+s40723242 網際內容管理
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -326,5 +339,102 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20191107233132.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191107233132.2"># Week7(https://s40723242.github.io/cad2019/content/Week-7.html)
+
+&lt;li&gt;&lt;strong&gt; Solvespace 編譯:參數化零組件繪製-About中加上學號&lt;/strong&gt;&lt;/li&gt;
+&lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Solvespace 參數繪圖驗證&lt;/strong&gt;&lt;/li&gt;
+
+My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+
+</t>
+<t tx="leo.20191107233137.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191107233137.2"># Week 6(https://s40723242.github.io/cad2019/content/Week-6.html)
+
+&lt;li&gt;&lt;strong&gt;Task1:參數化零組件繪製&lt;/strong&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Task2:網際 V-rep 模型控制&lt;/strong&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Task3:新增啟動與停止按鈕&lt;/strong&gt;&lt;/li&gt;
+
+My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)</t>
+<t tx="leo.20191107233139.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191107233139.2"># Week 2~Week 5(https://s40723242.github.io/cad2019/content/week2-5.html)
+
+&lt;li&gt;&lt;strong&gt;W2:建立個人倉儲並編譯網站&lt;/strong&gt;&lt;/li&gt;
+&lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;W3:透過Solvespace引導式編譯 進行編譯並啟動&lt;/strong&gt;&lt;/li&gt;
+&lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;W4:自行維護網站 並在影片中放入字幕及浮水印&lt;/strong&gt;&lt;/li&gt;
+&lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;W5:進行初步練習並繪製Solvespace零件&lt;/strong&gt;&lt;/li&gt;
+
+My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)</t>
+<t tx="leo.20191107233224.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191107233224.2">## s40723242 網際內容管理
+
+### 40723242
+
+&lt;small&gt;
+Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
+&lt;/small&gt;
+
+[個人倉儲](https://github.com/s40723242/cad2019)
+[個人網站](https://s40723242.github.io/cad2019/content/index.html)
+[個人網誌](https://s40723242.github.io/cad2019/blog/index.html)
+
+</t>
+<t tx="leo.20191107233240.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191107233240.2"># Week 8(https://s40723242.github.io/cad2019/content/week8.html)
+
+&lt;li&gt;&lt;strong&gt;Task1:啟用 CMSiMDE中的網誌系統&lt;/strong&gt;&lt;/li&gt;
+&lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task2:導入 Webots&lt;/strong&gt;&lt;/li&gt;
+&lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task3:以ssh對Github 連線&lt;/strong&gt;&lt;/li&gt;
+
+My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+</t>
 </tnodes>
 </leo_file>
