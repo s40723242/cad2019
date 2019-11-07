@@ -149,77 +149,23 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">Week << <a href='Week.html'>Previous</a> <a href='week6-9.html'>Next</a> >> week6-9<br /><h1>week2-5</h1>
-<p><strong><span style="color: #000000;">Week-2</span></strong></p>
-<p>第二週練習影片:</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/dL9M0pdp2aU" width="560"></iframe></p>
-<p>1.先將USB格式化為exFat(<span>單一檔案</span><b>大小</b><span>上限可達64ZB</span>)</p>
-<p>2.將<a href="https://drive.google.com/file/d/1fxMdqdCoCL__O1IpZ-Sv-A_4-c77Wx4E/view?usp=sharing" target="_blank">2019Fall可攜套件.7z</a>下在至USB內並進行解壓縮</p>
-<p>3.進入<a href="https://github.com" target="_blank">Github</a> <span>，</span>創建一個新的倉儲,並命名為''cad2019''</p>
-<p>4.git clone至自身的USB</p>
-<p>5.並進行身分輸入:</p>
-<p> git config  --global user.name "s40723242"</p>
-<p><span> git config  --global user.email "40723242@gm.nfu.edu.tw"</span></p>
-<p><span> git config  --global http.proxy [2001:288:6004:17:7]:3128 </span></p>
-<p>6.git submodule add<span> </span><a href="https://github.com/mdecourse/cmsimde.git" target="_blank">https://github.com/mdecourse/cmsimde.git</a> cmsimde</p>
-<p>7.下載附件 python -m pip install flask_cors</p>
-<p>8.進入 cmsimde 輸入 python wsgi.py 編輯頁面</p>
-<p>9.編輯完進入靜態網頁<span>，退到cad2019推上Github</span></p>
-<p><span>如何推上? git add . <span>⇒ git commit  -m "名稱" ⇒ git push</span></span></p>
-<p><span><span>10.完成</span></span></p>
-<hr/>
-<p><strong>Week-3</strong></p>
-<p><span>第三週練習影片:</span></p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/2NZuIl-BSXQ" width="560"></iframe></p>
-<p><strong>進行Solvespace 編譯</strong></p>
-<p>1.<span>將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe</span></p>
-<p>2.<span>查驗 git 版本是否在"2.13以上"</span></p>
-<p><span>3.git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace(務必在網路穩定地方下進行下載)</span></p>
-<p><span>4.編輯Y:\tmp\solvespace\extlib\angle\CMakeLists.txt 開啟後將第713行及714行前方加上"#"</span></p>
-<p><span>5.將 libpng.dll.a 的編譯，改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中</span></p>
-<p><span>6. cd solvespace &gt;cd extlib &gt;cd libpng &gt;mkdir build &gt; cd build </span></p>
-<p><span>7.輸入cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span></p>
-<p><span>8.輸入mingw32-make &gt; 退到solvespace &gt; mkdir build &gt; cd build</span></p>
-<p><span>9.在執行一次cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span></p>
-<p><span>10.在輸入mingw32-make &gt; Done</span></p>
-<hr/>
-<p><strong>Week-4</strong></p>
-<p><span>1.本週自行編輯網站，編輯自身影片加上字幕並加上浮水印.</span></p>
-<p><span>錄影:<a href="https://getsharex.com/" target="_blank">Sharex</a></span></p>
-<p><span>字幕:<a href="http://www.aegisub.org/" target="_blank">aegisub</a> . <a href="https://arctime.org/" target="_blank">arctime</a></span></p>
-<p><span>整合:<a href="http://www.avidemux.org/nightly/win64_support/" target="_blank">avidemux</a></span></p>
-<p><strong>浮水印:</strong></p>
-<p><span><img alt="" height="217" src="./../images/loge.png" width="386"/></span></p>
-<hr/>
-<p><strong>Week-5</strong></p>
-<p><strong>solvespace繪製練習-<a class="ytp-title-link yt-uix-sessionlink" data-sessionlink="feature=player-title" href="https://www.youtube.com/watch?v=7HtF2MBwO-o" target="_blank">Solvespace Tutorial 4 - Assembly</a></strong> </p>
-<p> 1-建立一個20X20的方形(<span>快捷鍵R</span>)<span>，分別</span>擠出長500的桌框及200的桌腳(Shift+x)<span>，個別另存新檔，成為個別的零件.</span></p>
-<p><span> 2-將桌框及桌腳利用方位變換(快捷鍵x)及結點接合(快捷鍵o)，組起桌架.</span></p>
-<p><span> 3-在建立一個540X540的方形(<span>快捷鍵R</span><span>)，分別<span>擠出寬12的桌面(Shift+x)另存新檔.</span></span></span></p>
-<p><span><span><span> 4-將桌面跟桌架合併.(<span>快捷鍵x)及(<span>快捷鍵o)</span></span></span></span></span></p>
-<p><span><span><span><span><span>完成圖:</span></span></span></span></span></p>
-<p><span><span><span><span><span><img caption="false" height="321" src="./../images/solvespace_2019-10-17_16-15-24.png" width="500"/></span></span></span></span></span></p>
-<p><span><span><span><span><span>操作影片:</span></span></span></span></span></p>
-<p><span><span><span><span><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/kRfXhxsMwAw" width="560"></iframe></span></span></span></span></span></p>
-<p><span><span><span><span><span>使用快捷鍵:</span></span></span></span></span></p>
-<p><strong>Sketch:</strong></p>
-<p><span><span><span><span><span> rectangle-R</span></span></span></span></span></p>
-<p><strong>Constrain:</strong></p>
-<p><span><span><span><span><span>lengh -<span>D</span></span></span></span></span></span></p>
-<p><span><span><span><span><span><span>equal length/radius/angle-Q</span></span></span></span></span></span></p>
-<p><span><span><span><span><span><span><span>point on line/curve/plane/point-O</span></span></span></span></span></span></span></p>
-<p><span><span><span><span><span><span><span>normals in same direction-X</span></span></span></span></span></span></span></p>
-<p><strong>New group:</strong></p>
-<p><span>extrude -Shift+X</span></p>
-<p><span>linking/assembling file-Shift+I</span></p>
-<p><strong>Perspective:</strong></p>
-<p><span><span><span><span><span><span><span>nearest isometric view -<span>F3</span></span></span></span></span></span></span></span></p>
-<p><span><span><span><span><span><span><span><span>align view to workplane-<span>W</span></span></span></span></span></span></span></span></span></p>
-<p><span><span><span><span><span>操作影片:</span></span></span></span></span></p>
-<p><strong>2.閱讀手冊熟悉solvespace<a href="http://solvespace.com/ref.pl" target="_blank"> reference</a></strong></p>
-<p><strong>3.將自評及互評填寫完畢<a href="https://forms.gle/raTtrfjv8cMMVSZd6">課程評量表單</a></strong></p>
-<hr/>
-<br />Week << <a href='Week.html'>Previous</a> <a href='week6-9.html'>Next</a> >> week6-9</div>
+    <div id="tipue_search_content">week6-9 << <a href='week6-9.html'>Previous</a> <a href='Week-7.html'>Next</a> >> Week-7<br /><h1>Week-6</h1>
+<p><strong><a href="https://github.com/mdecourse/cad2019/issues/16" target="_blank">任務</a></strong></p>
+<p><strong>1.機械設計工程系-電腦輔助設計實習 W6 任務一參數化零組件繪製</strong></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/OE-A-7OtnaE" width="560"></iframe></p>
+<p><strong>模型:</strong></p>
+<p><strong><img caption="false" height="375" src="./../images/solvespace_F3qVD6QapC.png" width="500"/></strong></p>
+<p><strong>2.機械設計工程系-電腦輔助設計實習 W6 任務一網際 V-rep 模型控制</strong></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ydlHsLiAEEM" width="560"></iframe></strong></p>
+<p>1.先將 V-rep 3.6.1 rev 4.7z V-rep 3.6.1 rev 4.7z及模型web_vrep2.zip (local)下載完成.</p>
+<p>2.我們可以透過v-rep將solvespace的模組進行動態測試.</p>
+<p>3.並透過python控制v-rep，所以我們先把solvespace繪製的模型導入到v-rep.</p>
+<p>4.再執行python程式去做API控制，並執行網頁，控制拖車的前後左右的方向.</p>
+<p><strong>3.機械設計工程系-電腦輔助設計實習 W6 任務一新增啟動與停止按鈕</strong></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/q8HWuHX5rZI" width="560"></iframe><br/><strong></strong></p>
+<p><span>1.開啟E:\web_vrep2\templates中的contrils.html，複製一行按鈕指令當作修改內容，把up改成start及stop.</span></p>
+<p><span><br/><span>2.開啟E:\web_vrep2中的vrep_linefollower.py，新增啟動與停止的指令程式碼，完成後即可操作啟動與停止鈕.(先開V-REP3V-REP3再啟動程式，不然會沒反應)</span></span></p>
+<br />week6-9 << <a href='week6-9.html'>Previous</a> <a href='Week-7.html'>Next</a> >> Week-7</div>
         
     <!-- footer -->
       <div class="container">
