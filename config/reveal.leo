@@ -33,9 +33,6 @@
 <v t="leo.20191107233240.1"><vh>w8</vh>
 <v t="leo.20191107233240.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.9"><vh>封面投影片</vh>
-<v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
-</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -60,19 +57,6 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## s40723242 網際內容管理
-
-### 40723242
-
-&lt;small&gt;
-Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
-&lt;/small&gt;
-
-[個人倉儲](https://github.com/s40723242/cad2019)
-[個人網站](https://s40723242.github.io/cad2019/content/index.html)
-[個人網誌](https://s40723242.github.io/cad2019/blog/index.html)
-
-</t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -254,15 +238,6 @@ s40723242 網際內容管理
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180902120523.9">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
 <t tx="leo.20180902120538.1"></t>
 <t tx="leo.20180902120538.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -348,7 +323,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191107233132.2"># Week7(https://s40723242.github.io/cad2019/content/Week-7.html)
+<t tx="leo.20191107233132.2"># [Week7](https://s40723242.github.io/cad2019/content/Week-7.html)
 
 &lt;li&gt;&lt;strong&gt; Solvespace 編譯:參數化零組件繪製-About中加上學號&lt;/strong&gt;&lt;/li&gt;
 &lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
@@ -366,7 +341,7 @@ My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subs
 
 						
 </t>
-<t tx="leo.20191107233137.2"># Week 6(https://s40723242.github.io/cad2019/content/Week-6.html)
+<t tx="leo.20191107233137.2"># [Week 6](https://s40723242.github.io/cad2019/content/Week-6.html)
 
 &lt;li&gt;&lt;strong&gt;Task1:參數化零組件繪製&lt;/strong&gt;&lt;/li&gt;
 
@@ -384,7 +359,7 @@ My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subs
 
 						
 </t>
-<t tx="leo.20191107233139.2"># Week 2~Week 5(https://s40723242.github.io/cad2019/content/week2-5.html)
+<t tx="leo.20191107233139.2"># [Week 2~Week 5](https://s40723242.github.io/cad2019/content/week2-5.html)
 
 &lt;li&gt;&lt;strong&gt;W2:建立個人倉儲並編譯網站&lt;/strong&gt;&lt;/li&gt;
 &lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
@@ -409,11 +384,13 @@ My youtube(https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subs
 ### 40723242
 
 &lt;small&gt;
-Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
+Created by cs40723242](https://s40723242.github.io/cad2019/content/index.html)
 &lt;/small&gt;
 
 [個人倉儲](https://github.com/s40723242/cad2019)
+
 [個人網站](https://s40723242.github.io/cad2019/content/index.html)
+
 [個人網誌](https://s40723242.github.io/cad2019/blog/index.html)
 
 </t>
@@ -426,7 +403,7 @@ Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
 
 						
 </t>
-<t tx="leo.20191107233240.2"># Week 8(https://s40723242.github.io/cad2019/content/week8.html)
+<t tx="leo.20191107233240.2"># [Week 8](https://s40723242.github.io/cad2019/content/week8.html)
 
 &lt;li&gt;&lt;strong&gt;Task1:啟用 CMSiMDE中的網誌系統&lt;/strong&gt;&lt;/li&gt;
 &lt;hr&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
