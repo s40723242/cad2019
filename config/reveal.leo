@@ -327,7 +327,7 @@ vertical: body pane on the botton</t>
 
 * Solvespace 編譯:參數化零組件繪製-About中加上學號
 
-*Solvespace 參數繪圖驗證
+* Solvespace 參數繪圖驗證
 
 [My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
 
@@ -343,11 +343,11 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191107233137.2"># [Week 6](https://s40723242.github.io/cad2019/content/Week-6.html)
 
-*Task1:參數化零組件繪製
+* Task1:參數化零組件繪製
 
-*Task2:網際 V-rep 模型控制
+* Task2:網際 V-rep 模型控制
 
-*Task3:新增啟動與停止按鈕
+* Task3:新增啟動與停止按鈕
 
 [My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)</t>
 <t tx="leo.20191107233139.1">&lt;section data-markdown&gt;
@@ -361,13 +361,13 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191107233139.2"># [Week 2~Week 5](https://s40723242.github.io/cad2019/content/week2-5.html)
 
-*W2:建立個人倉儲並編譯網站
+* W2:建立個人倉儲並編譯網站
 
-*W3:透過Solvespace引導式編譯 進行編譯並啟動
+* W3:透過Solvespace引導式編譯 進行編譯並啟動
 
-*W4:自行維護網站 並在影片中放入字幕及浮水印
+* W4:自行維護網站 並在影片中放入字幕及浮水印
 
-*W5:進行初步練習並繪製Solvespace零件
+* W5:進行初步練習並繪製Solvespace零件
 
 [My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)</t>
 <t tx="leo.20191107233224.1">&lt;section data-markdown&gt;
@@ -404,11 +404,11 @@ Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
 </t>
 <t tx="leo.20191107233240.2"># [Week 8](https://s40723242.github.io/cad2019/content/week8.html)
 
-*Task1:啟用 CMSiMDE中的網誌系統
+* Task1:啟用 CMSiMDE中的網誌系統
 
-*Task2:導入 Webots
+* Task2:導入 Webots
 
-*Task3:以ssh對Github 連線
+* Task3:以ssh對Github 連線
 
 [My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
 </t>
