@@ -361,13 +361,13 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191107233139.2"># [Week 2~Week 5](https://s40723242.github.io/cad2019/content/week2-5.html)
 
-&lt;li&gt;&lt;strong&gt;W2:建立個人倉儲並編譯網站&lt;/strong&gt;&lt;/li&gt;
+&lt;strong&gt;W2:建立個人倉儲並編譯網站&lt;/strong&gt;
 
-&lt;li&gt;&lt;strong&gt;W3:透過Solvespace引導式編譯 進行編譯並啟動&lt;/strong&gt;&lt;/li&gt;
+&lt;strong&gt;W3:透過Solvespace引導式編譯 進行編譯並啟動&lt;/strong&gt;
 
-&lt;li&gt;&lt;strong&gt;W4:自行維護網站 並在影片中放入字幕及浮水印&lt;/strong&gt;&lt;/li&gt;
+&lt;strong&gt;W4:自行維護網站 並在影片中放入字幕及浮水印&lt;/strong&gt;
 
-&lt;li&gt;&lt;strong&gt;W5:進行初步練習並繪製Solvespace零件&lt;/strong&gt;&lt;/li&gt;
+&lt;strong&gt;W5:進行初步練習並繪製Solvespace零件&lt;/strong&gt;
 
 [My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)</t>
 <t tx="leo.20191107233224.1">&lt;section data-markdown&gt;
@@ -381,7 +381,6 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191107233224.2">## s40723242 網際內容管理
 
-### 40723242
 
 &lt;small&gt;
 Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
