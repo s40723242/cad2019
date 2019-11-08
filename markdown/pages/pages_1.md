@@ -1,6 +1,6 @@
 Title: About
 
-## CMSimfly 內容管理網誌
+## s40723242 內容管理網誌
 
 課程倉儲: <a href="https://github.com/s40723242/cad2019">https://github.com/s40723242/cad2019</a>
 
