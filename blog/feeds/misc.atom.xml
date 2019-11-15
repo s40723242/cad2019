@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>s40723242 網際內容管理 - Misc</title><link href="./" rel="alternate"></link><link href=".%5Cfeeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2019-11-11T17:00:00+08:00</updated><entry><title>s40723242 cad2019 課程</title><link href=".%5Cs40723242%20cad2019-32-bit-Windows.html" rel="alternate"></link><published>2019-11-11T17:00:00+08:00</published><updated>2019-11-11T17:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-11-11:.\s40723242 cad2019-32-bit-Windows.html</id><summary type="html">&lt;h3&gt;期中報告心得:&lt;/h3&gt;
+&lt;p&gt;從第二週我們用到大一所學的github進行網站編譯及維護，第三周開始一直到第九週使用solvespace進行繪製零件模型並使用V-rep進行動態測試，雖然因程式碼不公開不交了但仍然是一個值得學習的程式後續接替的Webots，都是模擬模型的軟體，但看起來非常複雜，未來還需要花很多心思去了解.&lt;/p&gt;
+</summary><content type="html">&lt;h3&gt;期中報告心得:&lt;/h3&gt;
+&lt;p&gt;從第二週我們用到大一所學的github進行網站編譯及維護，第三周開始一直到第九週使用solvespace進行繪製零件模型並使用V-rep進行動態測試，雖然因程式碼不公開不交了但仍然是一個值得學習的程式後續接替的Webots，都是模擬模型的軟體，但看起來非常複雜，未來還需要花很多心思去了解.&lt;/p&gt;
+
+
+&lt;h3&gt;期中報告影片:&lt;/h3&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/R1yTnufqg08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;hr color="#ff8000&gt;
+
+&lt;h3&gt;&lt;a href="https://s40723242.github.io/cad2019/content/week2-5.html"&gt;Week 2~Week 5&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;W2:建立個人倉儲並編譯網站&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;W3:透過Solvespace引導式編譯 進行編譯並啟動&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;W4:自行維護網站 並在影片中放入字幕及浮水印&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;W5:進行初步練習並繪製Solvespace零件&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr color="#ff8000&gt;
+
+&lt;h3&gt;&lt;a href="https://s40723242.github.io/cad2019/content/week6-9.html"&gt;Week 6~9&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;W6&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Task1:參數化零組件繪製&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Task2:網際 V-rep 模型控制&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Task3:新增啟動與停止按鈕&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;W7&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Solvespace 編譯:參數化零組件繪製-About中加上學號&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Solvespace 參數繪圖驗證&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;W8&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Task1:啟用 CMSiMDE中的網誌系統&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Task2:導入 Webots&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Task3:以ssh對Github 連線&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr color="#ff8000&gt;</content><category term="s40723242 cad2019"></category></entry></feed>
