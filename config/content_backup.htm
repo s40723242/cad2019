@@ -275,25 +275,52 @@ Host github.com
 <h2><span>week10-14</span></h2>
 <p><span></span><strong>week10</strong>-<a href="https://github.com/mdecourse/cad2019/issues/28" target="_blank">issue</a></p>
 <p>本週開始進行協同倉儲<span>，所有組員必須fork組長所創建的倉儲，並開始維護自身的分支及原先的網站.</span></p>
+<p><strong></strong></p>
+<p><strong>Fork倉儲</strong></p>
+<p>正向pull request:無權組員修改過的檔案經由new <span>pull request，向組長提出申請，經組長確認檔案無誤後進行衝突合併，若無權組員檔案版本過舊將在提出申請前即被擋下.</span></p>
+<p>反向<span>pull request:無權組員檔案版本過舊時，將new <span>pull request反向回推至個人分支進行更新.更新也可透過(git pull "你fork的倉儲")</span></span></p>
+<p><span><span>操作影片:</span></span></p>
+<p><span><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/yLvnER6Rdis" width="560"></iframe></span></span></p>
 <p><strong>推送流程</strong></p>
 <p><span>git pull "fork倉儲網址"&gt;開啟近端修改其內容&gt;關閉近端&gt;git add .&gt;git commit -m "修改版次"&gt;git push&gt;到自身分支提交new pull request&gt;待組審核後才會呈現在版面上.</span></p>
-<p><strong>Fork倉儲</strong></p>
-<p><strong></strong></p>
-<p><strong>導入 GitExtensions:<br/><br/></strong></p>
+<p><strong> </strong></p>
 <p><strong><span>2008- The Engineering Design Revolution(16-18)</span></strong></p>
-<p><strong><span>Pro / ENGINEER</span></strong></p>
+<p><a href="https://s40723242.github.io/cad2019/content/Creo%20Parametric.html" target="_blank">Pro / ENGINEER</a></p>
 <p><strong><span><img caption="false" height="111" src="/images/1658237.png" width="250"/></span></strong></p>
-<p><strong><span>SDRC</span></strong></p>
+<p><a href="https://s40723242.github.io/cad2019/content/SDRC.html" target="_blank">SDRC</a></p>
 <p><strong><span><img caption="false" height="250" src="/images/42328_3843995a50e23b58f7fc8c1af6b7ccff0eaf9d3e_structural-dynamics-research-corporation_m.png" width="250"/></span></strong></p>
-<p><strong><span>SolidWorks</span></strong></p>
+<p><a href="https://s40723242.github.io/cad2019/content/SolidWorks.html" target="_blank">SolidWorks</a></p>
 <p><img caption="false" height="250" src="/images/kisspng-solidworks-logo-computer-software-mechanical-engin-cam-newton-5abbd3c0aac055.8229833915222588806994.jpg" width="250"/></p>
-<p><strong>建立NX12</strong></p>
+<p><strong>NX12</strong></p>
 <p><strong></strong></p>
 <hr/>
 <p><strong>week12-<a href="https://github.com/mdecourse/cad2019/issues/28" target="_blank">issue</a></strong></p>
 <p><strong>Batch Command</strong></p>
-<p><strong></strong></p>
-<p><strong>NX 零組件繪圖:</strong></p>
+<p><span>1.cad.bat - 啟動 wsgi.py 並且在瀏覽器開啟 https 9443 動態網頁</span></p>
+<div class="line number1 index0 alt2"><span style="color: #00ffff;"><code class="js plain">@echo off</code></span></div>
+<div class="line number2 index1 alt1"><span style="color: #00ffff;"><code class="js plain">y:</code></span></div>
+<div class="line number3 index2 alt2"><span style="color: #00ffff;"><code class="js plain">cd tmp\cad2019\</code></span></div>
+<div class="line number4 index3 alt1"><span style="color: #00ffff;"><code class="js plain">start python http-server.py | start chrome https:</code><code class="js comments">//localhost:8444</code></span></div>
+<p><span style="color: #00ffff;"><code class="js plain"></code></span></p>
+<div class="line number4 index3 alt1"><span style="color: #000000;"><code class="js comments">2.<span>cadh.bat - 啟動 http-server 並且在瀏覽氣開啟 https 8444 靜態網頁</span></code></span></div>
+<div class="line number4 index3 alt1">
+<div class="line number1 index0 alt2"><span style="color: #00ffff;"><code class="js plain">@echo off</code></span></div>
+<div class="line number2 index1 alt1"><span style="color: #00ffff;"><code class="js plain">y:</code></span></div>
+<div class="line number3 index2 alt2"><span style="color: #00ffff;"><code class="js plain">cd tmp\cad2019\</code></span></div>
+<div class="line number4 index3 alt1"><span style="color: #00ffff;"><code class="js plain">start python http-server.py | start chrome https:</code><code class="js comments">//localhost:8444</code></span></div>
+<div class="line number4 index3 alt1"><span style="color: #00ffff;"><code class="js comments"></code></span></div>
+<div class="line number4 index3 alt1"><span style="color: #000000;"><code class="js comments">3.<span>cadg.bat-近端倉儲維護告一段落後, 啟動 gitextensions 開啟 cad2019 倉儲時, 使用.</span></code></span></div>
+<div class="line number4 index3 alt1">
+<div class="line number1 index0 alt2"><span style="color: #00ffff;"><code class="js plain">@echo off</code></span></div>
+<div class="line number2 index1 alt1"><span style="color: #00ffff;"><code class="js plain">y:</code></span></div>
+<div class="line number3 index2 alt2"><span style="color: #00ffff;"><code class="js plain">Y:\cad\201906_fall\data\GitExtensions\gitextensions.exe  browse y:\tmp\cad2019\</code></span></div>
+<div class="line number3 index2 alt2"><span style="color: #00ffff;"><code class="js plain"></code></span></div>
+<div class="line number3 index2 alt2" style="text-align: center;"><span style="color: #ff0000;"><code class="js plain">~複製貼上更改檔案位置即可,有時啟動需間隔一些時間~</code></span></div>
+</div>
+</div>
+<div class="line number4 index3 alt1"><span style="color: #000000;"><code class="js comments"></code></span></div>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/st5pHKpDqxE" width="560"></iframe></strong></p>
+<p><strong>NX解說(第七章):</strong></p>
 <p><strong></strong></p>
 <p><strong>Webots 與 V-rep Tutorial:<br/><br/></strong></p>
 <hr/>
