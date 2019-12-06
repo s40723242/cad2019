@@ -33,6 +33,12 @@
 <v t="leo.20191107233240.1"><vh>w8</vh>
 <v t="leo.20191107233240.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20191206133054.1"><vh>w10.w12</vh>
+<v t="leo.20191206133054.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20191206133124.1"><vh>w13</vh>
+<v t="leo.20191206133124.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -349,7 +355,8 @@ vertical: body pane on the botton</t>
 
 * Task3:新增啟動與停止按鈕
 
-[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)</t>
+[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+</t>
 <t tx="leo.20191107233139.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -369,7 +376,8 @@ vertical: body pane on the botton</t>
 
 * W5:進行初步練習並繪製Solvespace零件
 
-[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)</t>
+[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+</t>
 <t tx="leo.20191107233224.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -409,6 +417,44 @@ Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
 * Task2:導入 Webots
 
 * Task3:以ssh對Github 連線
+
+[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+</t>
+<t tx="leo.20191206133054.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191206133054.2"># [Week 10.12](https://s40723242.github.io/cad2019/content/week10-14.html)
+
+* Task1:soildworks/nx分析
+
+* Task2:解說NX12
+
+* Task3:Webots  Tutorial and Vrep  Tutorial
+
+[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+</t>
+<t tx="leo.20191206133124.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191206133124.2"># [Week 8](https://s40723242.github.io/cad2019/content/week8.html)
+
+* Task1:啟用 CMSiMDE中的網誌系統
+
+* Task2:導入 Webots
+
+* Task3:以ssh對Github 連線
 
 [My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
 </t>
