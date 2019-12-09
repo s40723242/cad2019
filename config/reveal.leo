@@ -33,10 +33,10 @@
 <v t="leo.20191107233240.1"><vh>w8</vh>
 <v t="leo.20191107233240.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20191206133054.1"><vh>w10.w12</vh>
+<v t="leo.20191206133054.1"><vh>w10</vh>
 <v t="leo.20191206133054.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20191206133124.1"><vh>w13</vh>
+<v t="leo.20191206133124.1"><vh>w12</vh>
 <v t="leo.20191206133124.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
@@ -429,13 +429,13 @@ Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
 
 						
 </t>
-<t tx="leo.20191206133054.2"># [Week 10.12](https://s40723242.github.io/cad2019/content/week10-14.html)
+<t tx="leo.20191206133054.2"># [Week 10](https://s40723242.github.io/cad2019/content/week10.html)
 
-* Task1:soildworks/nx分析
+* Task1:各組員fork組長所創建的倉儲
 
-* Task2:解說NX12
+* Task2:整理各軟體的起源及歷史
 
-* Task3:Webots  Tutorial and Vrep  Tutorial
+* Task3:熟悉NX介面
 
 [My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
 </t>
@@ -448,13 +448,13 @@ Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
 
 						
 </t>
-<t tx="leo.20191206133124.2"># [Week 8](https://s40723242.github.io/cad2019/content/week8.html)
+<t tx="leo.20191206133124.2"># [Week 12](https://s40723242.github.io/cad2019/content/week12.html)
 
-* Task1:啟用 CMSiMDE中的網誌系統
+* Task1:設定Batch Command
 
-* Task2:導入 Webots
+* Task2:NX電子書翻譯及糙做練習
 
-* Task3:以ssh對Github 連線
+* Task3: Vrep and Webots  Tutorial
 
 [My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
 </t>
