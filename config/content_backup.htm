@@ -4,6 +4,12 @@
 <p><a href="https://s40723242.github.io/cad2019/content/week10-14.html" target="_blank">week10-14</a></p>
 <p><a href="https://s40723242.github.io/cad2019/content/week15-18.html" target="_blank">week15-18</a></p>
 <h2>week2-5</h2>
+<p><strong>LINK</strong></p>
+<p><a href="https://s40723242.github.io/cad2019/content/Week-2.html" target="_blank">week2</a></p>
+<p><a href="https://s40723242.github.io/cad2019/content/Week-3.html" target="_blank">week3</a></p>
+<p><a href="https://s40723242.github.io/cad2019/content/Week-4.html" target="_blank">week4</a></p>
+<p><a href="https://s40723242.github.io/cad2019/content/Week-5.html" target="_blank">week5</a></p>
+<hr/>
 <p><strong><span style="color: #000000;">Week-2</span></strong></p>
 <p>第二週練習影片:</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/dL9M0pdp2aU" width="560"></iframe></p>
@@ -73,8 +79,83 @@
 <p><strong>2.閱讀手冊熟悉solvespace<a href="http://solvespace.com/ref.pl" target="_blank"> reference</a></strong></p>
 <p><strong>3.將自評及互評填寫完畢<a href="https://forms.gle/raTtrfjv8cMMVSZd6">課程評量表單</a></strong></p>
 <hr/>
+<h3>Week-2</h3>
+<p>第二週練習影片:</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/dL9M0pdp2aU" width="560"></iframe></p>
+<p>1.先將USB格式化為exFat(<span>單一檔案</span><b>大小</b><span>上限可達64ZB</span>)</p>
+<p>2.將<a href="https://drive.google.com/file/d/1fxMdqdCoCL__O1IpZ-Sv-A_4-c77Wx4E/view?usp=sharing" target="_blank">2019Fall可攜套件.7z</a>下在至USB內並進行解壓縮</p>
+<p>3.進入<a href="https://github.com" target="_blank">Github</a> <span>，</span>創建一個新的倉儲,並命名為''cad2019''</p>
+<p>4.git clone至自身的USB</p>
+<p>5.並進行身分輸入:</p>
+<p> git config  --global user.name "s40723242"</p>
+<p><span> git config  --global user.email "40723242@gm.nfu.edu.tw"</span></p>
+<p><span> git config  --global http.proxy [2001:288:6004:17:7]:3128 </span></p>
+<p>6.git submodule add<span> </span><a href="https://github.com/mdecourse/cmsimde.git" target="_blank">https://github.com/mdecourse/cmsimde.git</a> cmsimde</p>
+<p>7.下載附件 python -m pip install flask_cors</p>
+<p>8.進入 cmsimde 輸入 python wsgi.py 編輯頁面</p>
+<p>9.編輯完進入靜態網頁<span>，退到cad2019推上Github</span></p>
+<p><span>如何推上? git add . <span>⇒ git commit  -m "名稱" ⇒ git push</span></span></p>
+<p><span><span>10.完成</span></span></p>
+<hr/>
+<h3>Week-3</h3>
+<p><span>第三週練習影片:</span></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/2NZuIl-BSXQ" width="560"></iframe></p>
+<p><strong>進行Solvespace 編譯</strong></p>
+<p>1.<span>將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe</span></p>
+<p>2.<span>查驗 git 版本是否在"2.13以上"</span></p>
+<p><span>3.git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace(務必在網路穩定地方下進行下載)</span></p>
+<p><span>4.編輯Y:\tmp\solvespace\extlib\angle\CMakeLists.txt 開啟後將第713行及714行前方加上"#"</span></p>
+<p><span>5.將 libpng.dll.a 的編譯，改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中</span></p>
+<p><span>6. cd solvespace &gt;cd extlib &gt;cd libpng &gt;mkdir build &gt; cd build </span></p>
+<p><span>7.輸入cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span></p>
+<p><span>8.輸入mingw32-make &gt; 退到solvespace &gt; mkdir build &gt; cd build</span></p>
+<p><span>9.在執行一次cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span></p>
+<p><span>10.在輸入mingw32-make &gt; Done</span></p>
+<hr/>
+<h3>Week-4</h3>
+<p><span>1.本週自行編輯網站，編輯自身影片加上字幕並加上浮水印.</span></p>
+<p><span>錄影:<a href="https://getsharex.com/" target="_blank">Sharex</a></span></p>
+<p><span>字幕:<a href="http://www.aegisub.org/" target="_blank">aegisub</a> .<span> </span><a href="https://arctime.org/" target="_blank">arctime</a></span></p>
+<p><span>整合:<a href="http://www.avidemux.org/nightly/win64_support/" target="_blank">avidemux</a></span></p>
+<p><strong>浮水印:</strong></p>
+<p><span><img alt="" height="217" src="/images/loge.png" width="386"/></span></p>
+<hr/>
+<h3>Week-5</h3>
+<p><strong>solvespace繪製練習-<a class="ytp-title-link yt-uix-sessionlink" data-sessionlink="feature=player-title" href="https://www.youtube.com/watch?v=7HtF2MBwO-o" target="_blank">Solvespace Tutorial 4 - Assembly</a></strong> </p>
+<p> 1-建立一個20X20的方形(<span>快捷鍵R</span>)<span>，分別</span>擠出長500的桌框及200的桌腳(Shift+x)<span>，個別另存新檔，成為個別的零件.</span></p>
+<p><span> 2-將桌框及桌腳利用方位變換(快捷鍵x)及結點接合(快捷鍵o)，組起桌架.</span></p>
+<p><span> 3-在建立一個540X540的方形(<span>快捷鍵R</span><span>)，分別<span>擠出寬12的桌面(Shift+x)另存新檔.</span></span></span></p>
+<p><span><span><span> 4-將桌面跟桌架合併.(<span>快捷鍵x)及(<span>快捷鍵o)</span></span></span></span></span></p>
+<p><span><span><span><span><span>完成圖:</span></span></span></span></span></p>
+<p><span><span><span><span><span><img caption="false" height="321" src="/images/solvespace_2019-10-17_16-15-24.png" width="500"/></span></span></span></span></span></p>
+<p><span><span><span><span><span>操作影片:</span></span></span></span></span></p>
+<p><span><span><span><span><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/kRfXhxsMwAw" width="560"></iframe></span></span></span></span></span></p>
+<p><span><span><span><span><span>使用快捷鍵:</span></span></span></span></span></p>
+<p><strong>Sketch:</strong></p>
+<p><span><span><span><span><span>rectangle-R</span></span></span></span></span></p>
+<p><strong>Constrain:</strong></p>
+<p><span><span><span><span><span>lengh -<span>D</span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span>equal length/radius/angle-Q</span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span><span>point on line/curve/plane/point-O</span></span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span><span>normals in same direction-X</span></span></span></span></span></span></span></p>
+<p><strong>New group:</strong></p>
+<p><span>extrude -Shift+X</span></p>
+<p><span>linking/assembling file-Shift+I</span></p>
+<p><strong>Perspective:</strong></p>
+<p><span><span><span><span><span><span><span>nearest isometric view -<span>F3</span></span></span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span><span><span>align view to workplane-<span>W</span></span></span></span></span></span></span></span></span></p>
+<p><span><span><span><span><span>操作影片:</span></span></span></span></span></p>
+<p><strong>2.閱讀手冊熟悉solvespace<a href="http://solvespace.com/ref.pl" target="_blank"><span> </span>reference</a></strong></p>
+<p><strong>3.將自評及互評填寫完畢<a href="https://forms.gle/raTtrfjv8cMMVSZd6">課程評量表單</a></strong></p>
+<hr/>
 <h2>week6-9</h2>
-<p><strong>Week-6</strong></p>
+<p><span>LINK</span></p>
+<p><a href="https://s40723242.github.io/cad2019/content/Week6.html" target="_blank">week6</a></p>
+<p><a href="https://s40723242.github.io/cad2019/content/Week7.html" target="_blank">week7</a></p>
+<p><a href="https://s40723242.github.io/cad2019/content/week8.html" target="_blank">week8</a></p>
+<p><a href="https://s40723242.github.io/cad2019/content/week9.html" target="_blank">week9</a></p>
+<hr/>
+<p><strong>Week6</strong></p>
 <p><strong><a href="https://github.com/mdecourse/cad2019/issues/16" target="_blank">任務</a></strong></p>
 <p><strong>1.機械設計工程系-電腦輔助設計實習 W6 任務一參數化零組件繪製</strong></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/OE-A-7OtnaE" width="560"></iframe></p>
@@ -91,7 +172,7 @@
 <p><span>1.開啟E:\web_vrep2\templates中的contrils.html，複製一行按鈕指令當作修改內容，把up改成start及stop.</span></p>
 <p><span><br/><span>2.開啟E:\web_vrep2中的vrep_linefollower.py，新增啟動與停止的指令程式碼，完成後即可操作啟動與停止鈕.(先開V-REP3V-REP3再啟動程式，不然會沒反應)</span></span></p>
 <hr/>
-<p><strong>Week-7</strong></p>
+<p><strong>Week7</strong></p>
 <p>
 <script type="text/javascript">
 function chgFrame( url )
@@ -145,7 +226,13 @@ Host github.com
 <hr/>
 <p><strong>week9</strong></p>
 <p><strong>期中影片:</strong></p>
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 <p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/R1yTnufqg08" width="560"></iframe></strong></p><h3>Week-6</h3>
+=======
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/R1yTnufqg08" width="560"></iframe></strong></p>
+<hr/>
+<h3>Week6</h3>
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; f56ca434bc6a269c00e081538876095eae78dcef
 <p><strong><a href="https://github.com/mdecourse/cad2019/issues/16" target="_blank">任務</a></strong></p>
 <p><strong>1.機械設計工程系-電腦輔助設計實習 W6 任務一參數化零組件繪製</strong></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/OE-A-7OtnaE" width="560"></iframe></p>
@@ -161,7 +248,7 @@ Host github.com
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/q8HWuHX5rZI" width="560"></iframe><br/><strong></strong></p>
 <p><span>1.開啟E:\web_vrep2\templates中的contrils.html，複製一行按鈕指令當作修改內容，把up改成start及stop.</span></p>
 <p><span><br/><span>2.開啟E:\web_vrep2中的vrep_linefollower.py，新增啟動與停止的指令程式碼，完成後即可操作啟動與停止鈕.(先開V-REP3V-REP3再啟動程式，不然會沒反應)</span></span></p>
-<h3>Week-7</h3>
+<h3>Week7</h3>
 <p><strong><span class="js-issue-title"> Solvespace 編譯與參數繪圖驗證:</span></strong></p>
 <p><strong><span class="js-issue-title">1.Solvespace 編譯-About中加上學號</span></strong></p>
 <p><strong><span class="js-issue-title"><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/0-fJH8SykZA" width="560"></iframe></span></strong></p>
@@ -271,7 +358,18 @@ Host github.com
     IdentitiesOnly yes</code></span></pre>
 <p>8.在githun ssh設定中新增鑰使</p>
 <p>9.完成</p>
+<hr/>
+<h3>week9</h3>
+<p><strong>期中影片:</strong></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/R1yTnufqg08" width="560"></iframe></strong></p>
+<p><strong> </strong></p>
+<hr/>
 <h2>week10-14</h2>
+<p><span>LINK</span></p>
+<p><a href="https://s40723242.github.io/cad2019/content/week10.html" target="_blank">week10</a></p>
+<p><a href="https://s40723242.github.io/cad2019/content/week12.html" target="_blank">week12</a></p>
+<p><a href="https://s40723242.github.io/cad2019/content/week13-14.html" target="_blank">week13-14</a></p>
+<hr/>
 <p><span></span><strong>week10</strong>-<a href="https://github.com/mdecourse/cad2019/issues/28" target="_blank">issue</a></p>
 <p>本週開始進行協同倉儲<span>，所有組員必須fork組長所創建的倉儲，並開始維護自身的分支及原先的網站.</span></p>
 <p><strong>Fork倉儲</strong></p>
@@ -490,7 +588,7 @@ Host github.com
 <p>1.理解機器人路徑程式的編輯模式後,將路徑程式做更改</p>
 <p>2.<span>新增一個控制程式碼檔案，並命名為e-puck_avoid_collision，自動迴避程式碼加入</span></p>
 <p>3.機器人將自動迴避障礙物</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/cz1OxRY40ZE" width="560"></iframe><span id="__caret">_</span></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/cz1OxRY40ZE" width="560"></iframe></p>
 <p><strong><span>tutorial5</span>:</strong></p>
 <p>1.將所有物件刪除只留場景</p>
 <p>2.新增啞鈴，<span>新增Solid，在Shape中的geometry新增cylinder，並將height改為0.1及radius改為0.01</span></p>
@@ -498,9 +596,10 @@ Host github.com
 <p><span>4.調整啞鈴位置，將rotation中的數值改為(1,0,0,1.5708)，且translation Y軸改為0.03</span></p>
 <p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/N7dKD10f-6E" width="560"></iframe></strong></p>
 <p><strong><span>tutorial6</span>:</strong></p>
-<p><span id="__caret">1.開啟Webots Tutorial 5的檔案，將箱子.機器.球.啞鈴刪除後，另存為4_wheels_robot.wbt<br/>2.新增Robot，並將底下的physics加入Physics<br/>3.在Robot下的children中新增Shape，並輸入 BODY<br/>4.將Robot下的boundingObject中use BODY<br/>5.接著將Shape下的geometry新增Box，並將尺寸定為(0.1,0.05,0.2),appearance新增PBRAppearance，並將顏色改為紅色.metalness<br/>6.在Robot下的children中新增Hingejoint，並在底下的jointParameter中新增HingeJointParameter。<br/>7.接著在Hingejoint中的device新增RotationalMotor，並且在Hingejoint中的endPoint新增Soild。<br/>8.將Soild def WHEEL1，並在底下的children新增Shape，且def WHEEL。<br/>9.在endPoint底下的physics加入Physics，並def WHEEL_PH。<br/>10.接著在Shape下的geometry中新增Cylinder，並在Shape下的appearance新增PBRAppearance。<br/>11.將appearance中的顏色改為綠色.metalness改為0。<br/>12.接著調整軸心位置，將geometry中的radius改為0.04.height改為0.02。<br/>13.將Hingejoint下的boundingObject新增use WHEEL，並將endPoint下的name改為wheel1。<br/>14.調整輪胎位置，將translation中的數值調為(0.06,0,0.05)，並將rotation的數值調為(0,0,1,1.5708)。<br/>15.接著將HingeJointParameter下的anchor中的數值調為(0.06,0,0.05)。<br/>16.將RotationalMotor中的name改為wheel1。<br/>17.接著將其餘三個輪胎的數值改動.名稱改動，並用use-der機制完成。<br/>18.新增感測器，在Robot下的children中新增DistanceSensor,並在DistanceSensor下的children新增Shape。<br/>19.接著在Shape下的geometry新增Box.appearance新增PBRAppearance，並將appearance下的metalness改為0.顏色改為藍色。<br/>20.接著更改大小,將geometry中的size數值改為(0.01,0.01,0.01)。<br/>21.接著更改感測器位置，將DistanceSensor下的translation中的數值改為(0.03,0,0.1)，並且將rotation中的數值改為(0,1,0,0.3)。<br/>22.接著複製感測器，將其translation中的數值改為(-0.03,0,0.1).rotation中的數值改為(0,1,0,-1.8)。<br/>23.將感測器的name改為ds_left及ds_right，並將調整Robot高度為(0,0.05,0)，完成設定後存儲。<br/>24.接著加入程式碼，選擇Python，並命名為4_wheels_collision_avoidance。<br/>25.複製程式碼貼上並存儲，並且將conteoller選用4_wheels_collision_avoidance。<br/>26.接著開始模擬，運作正常及完成。<br/></span></p>
+<p></p>
 <p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/GGpXT8I4NmM" width="560"></iframe></strong></p>
-<p><strong></strong></p>
+<p><strong><span> </span></strong><span></span></p>
+<hr/>
 <h3>week10</h3>
 <p><a href="https://github.com/mdecourse/cad2019/issues/28" target="_blank">issue</a></p>
 <p>本週開始進行協同倉儲<span>，所有組員必須fork組長所創建的倉儲，並開始維護自身的分支及原先的網站.</span></p>
@@ -687,16 +786,80 @@ Host github.com
 <p><strong>Vrep  Tutorial:</strong></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/g0YI68GV-s8" width="560"></iframe><strong></strong></p>
 <hr/>
+<h3>week13-14</h3>
+<p><strong>第13周以前的內容報告:</strong></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/izai2_AApaE" width="560"></iframe></strong></p>
+<p><strong><span>Webots及Vrep之介紹:</span></strong></p>
+<p><strong><span>Webots</span></strong></p>
+<p><strong><span><img alt="webot" caption="false" src="http://www.sensorobots.net/wp-content/uploads/2013/08/webot.jpg" width="150"/></span></strong></p>
+<p>Webots是移動式機器人建模、程式撰寫與模擬軟體，內建機器人資料庫，可將控制程式傳送至多種真實的機器人，可定義完整的移動機器人模擬，包含模型性質，如形狀、質量、摩擦力等，以及多個感測器與致動器。以內建IDE撰寫控制程式與環境、軟體模擬，並由程式控制真實機器人。</p>
+<p><strong><span>Vrep</span></strong></p>
+<p><img alt="[連載0]Vrep入門介紹" caption="false" src="https://pic2.zhimg.com/v2-115fc76be5f99897f64919bdbb6a7ebd_1200x500.jpg" width="150"/></p>
+<p><span>Vrep是一款動力學模擬軟體，主要定位於機器人模擬建模領域，可以利用內嵌腳本、ROS節點、遠程API客戶端等實現分散式的控制結構，是非常理想的機器人模擬建模的工具。控制器可以採用C/C++, Python, Java, Lua, Matlab, Octave or Urbi等語言實現。</span></p>
+<p><strong><span>webots all tutorial :</span></strong></p>
+<p><strong><span>tutorial</span>1:</strong></p>
+<p>1.建立場景</p>
+<p>2.設定場景參數</p>
+<p>3.新增物件並設定物件參數,並複製三個</p>
+<p>4.新增機器人並施加拉力測試</p>
+<p>5.將程式導入機器人路徑</p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/jI3fncsfBe0" width="560"></iframe></strong></p>
+<p><strong><span>tutorial2</span>:</strong></p>
+<p>1.刪去原有場景</p>
+<p>2.<span>在children中新增一個形狀節點，形狀幾何中新增球形節點</span></p>
+<p><span>3.形狀外觀中新增幾何圖形節點並設定屬性、粗糙度及跟改顏色</span></p>
+<p><span>4.實體邊界中新增形狀節點，形狀幾何中新增箱型節點</span></p>
+<p><span>5.設定參數</span></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/1BRHvV2r_XM" width="560"></iframe></strong></p>
+<p><strong><span>tutorial3</span>:</strong></p>
+<p>1.<span>修改牆壁的外觀，在第一面牆的Appearance中的baseColor改成藍色，設定參數</span></p>
+<p><span>2.將球體新增紋路</span></p>
+<p>3.<span>ImageTexture的url&gt;WEBOTS_HOME / projects / default / worlds / textures / red_brick_wall.jpg 路徑下的圖片</span></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/jj9itYxSDI8" width="560"></iframe></strong></p>
+<p><strong><span>tutorial4</span>:</strong></p>
+<p>1.理解機器人路徑程式的編輯模式後,將路徑程式做更改</p>
+<p>2.<span>新增一個控制程式碼檔案，並命名為e-puck_avoid_collision，自動迴避程式碼加入</span></p>
+<p>3.機器人將自動迴避障礙物</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/cz1OxRY40ZE" width="560"></iframe></p>
+<p><strong><span>tutorial5</span>:</strong></p>
+<p>1.將所有物件刪除只留場景</p>
+<p>2.新增啞鈴，<span>新增Solid，在Shape中的geometry新增cylinder，並將height改為0.1及radius改為0.01</span></p>
+<p><span>3.在Transform中的children新增Shape，並在底下的geometry新增Sphere，然後將底下的radius改為0.03，並設定位置參數</span></p>
+<p><span>4.調整啞鈴位置，將rotation中的數值改為(1,0,0,1.5708)，且translation Y軸改為0.03</span></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/N7dKD10f-6E" width="560"></iframe></strong></p>
+<p><strong><span>tutorial6</span>:</strong></p>
+<p></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/GGpXT8I4NmM" width="560"></iframe></strong></p>
+<p><strong><span> </span></strong><span></span></p>
+<hr/>
 <h2>week15-18</h2>
+<p><span>LINK</span></p>
+<p><a href="https://s40723242.github.io/cad2019/content/week15.html" target="_blank">week15</a></p>
+<p><span>week16</span></p>
+<p><span>week17</span></p>
+<p><span>week18</span></p>
+<hr/>
+<p><strong>week15</strong></p>
 <p><strong>15周前心得:</strong></p>
 <p>在與組員協同後，雖然在一開始會有許多技術上的落差及衝突，但在各<span>組員及老師的催促下，也漸漸地跟上腳步，當我們在整理solidwork、nx及cero後除了更加了解軟件的來歷也更了解他是如何使用，在13周後開始接觸Webots及Vrep，或許是剛開始不太熟悉做得有些痛苦，任何東西都必須從0開始，Vrep更是如此，但透過Webots及Vrep的教學網站慢慢一點的練習，也漸漸的克服困難，希望能把這兩套軟件學好，讓未來能有更好的工具能夠使用。</span></p>
 <p><strong>15周以前回顧報告:</strong></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/YSm6I95JHPw" width="560"></iframe></p>
-<p></p>
+<hr/>
 <p><strong>第16周心得:</strong></p>
 <p>雖然這支影片未在查驗時間上傳，但經過這次的錯誤後也學習到許多一些軟件的特性，希望經過這次未來能在時間壓力下能呈現最完整的作品。</p>
 <p><strong>第16周越野車零組件設計繪圖查驗:</strong></p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/TAmZBtGd_mU" width="560"></iframe></p><h1>Note</h1>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/TAmZBtGd_mU" width="560"></iframe></p>
+<hr/><h3>week15</h3>
+<p><strong>15周前心得:</strong></p>
+<p>在與組員協同後，雖然在一開始會有許多技術上的落差及衝突，但在各<span>組員及老師的催促下，也漸漸地跟上腳步，當我們在整理solidwork、nx及cero後除了更加了解軟件的來歷也更了解他是如何使用，在13周後開始接觸Webots及Vrep，或許是剛開始不太熟悉做得有些痛苦，任何東西都必須從0開始，Vrep更是如此，但透過Webots及Vrep的教學網站慢慢一點的練習，也漸漸的克服困難，希望能把這兩套軟件學好，讓未來能有更好的工具能夠使用。</span></p>
+<p><strong>15周以前回顧報告:</strong></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/YSm6I95JHPw" width="560"></iframe><br/><br/></p>
+<hr/>
+<p><strong></strong></p><h1>Note</h1>
+=======
+<hr/>
+<h1>Note</h1>
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; f56ca434bc6a269c00e081538876095eae78dcef
 <p><strong>Personal :</strong></p>
 <p><a href="https://github.com/s40723242/cad2019" target="_blank">MY repositories</a></p>
 <p><a href="https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber" target="_blank">MY Youtube</a></p>
@@ -708,7 +871,7 @@ Host github.com
 <p><span><a href="http://avidemux.sourceforge.net/" target="_blank">avidemux</a></span></p>
 <p><a href="http://mde.tw/cad2019/content/index.html" target="_blank">2019 Fall 電腦輔助設計實習課程網頁</a></p>
 <p><a href="https://www.youtube.com/channel/UCJ0Ye3mhMApH0yxAcwCXs5g" target="_blank">KMOLab-Youtube</a></p>
-<p><strong></strong></p>
+<hr/>
 <h2>video production</h2>
 <ul>
 <li>
@@ -725,6 +888,7 @@ Host github.com
 <p><span><img alt="" height="239" src="/images/avidemux_story.jpg" width="449"/></span></p>
 </li>
 </ul>
+<hr/>
 <h2>solvespace - 快捷鍵</h2>
 <ul>
 <li><strong>solvespace - 快捷鍵</strong></li>
@@ -737,11 +901,13 @@ Host github.com
 <p><strong><img alt="" height="455" src="/images/x3.png" width="370"/></strong></p>
 <p><strong>Perspective:</strong></p>
 <p><img alt="" height="145" src="/images/s4.png" width="378"/></p>
+<hr/>
 <h2>git基本指令</h2>
 <ul>
 <li><strong>git基本指令</strong></li>
 </ul>
 <p><img alt="" height="748" src="/images/AcroRd32_5ocCE6WQng.png" width="500"/></p>
+<hr/>
 <h2>Creo Parametric</h2>
 <p>Pro/E是美國參數技術公司 （<span>Parametric Technology Corporation</span>，簡稱<span>PTC</span>）的重要產品，在目前的三維造型軟件領域中佔有著重要地位。<span> pro-e</span>作為當今世界機械<span>CAD/CAE/CAM</span>領域的新標準而得到業界的認可和推廣，是現今主流的模具和產品設計三維<span>CAD/CAM</span>軟件之一。</p>
 <p>第一個提出了參數化設計的概念，並且採用了單一數據庫來解決特徵的相關性問題。另外，它採用模塊化方式，用戶可以根據自身的需要進行選擇，而不必安裝所有模塊。<span> Pro/E</span>的基於特徵方式，能夠將設計至生產全過程集成到一起，實現並行工程設計。它不但可以應用於工作站，而且也可以應用到單機上。</p>
@@ -760,6 +926,7 @@ Host github.com
 <p>為了幫助進行諮詢，該公司編寫了模擬和預測振動的軟件。公司開始要求使用該軟件的權利，因此<span>SDRC</span>進入了軟件市場。在<span>70</span>年代，<span>SDRC</span>成為有限元和建模公司，而在<span>80</span>年代和<span>90</span>年代，<span>SDRC</span>成為實體建模和分析領域的領先公司之一。<span> SDRC</span>（檸檬）是<span>70</span>年代最早創造<span>“ MCAE”</span>（機械計算機輔助工程 ）一詞的機構之一。<span> Lemon</span>博士於<span>1982</span>年離開<span>SDRC</span>，並於<span>1983</span>年由國際<span>TechneGroup Incorporated</span>成立了一家新公司。專注於在產品開發的早期將<span>CAE</span>應用於主導設計（一種稱為<span>CP / PD</span>（並行產品和流程開發）的方法）。</p>
 <p>在<span>SDRC</span>率先推出的多項技術中，由於與<span>Control Data</span>的合資企業，它是最早引入產品生命週期管理（<span>PLM</span>）解決方案的公司之一。產品<span>Metaphase</span>最終成為<span>SDRC</span>的獨家財產。</p>
 <p>參考資料<span>:<a href="https://en.wikipedia.org/wiki/SDRC">https://en.wikipedia.org/wiki/SDRC</a></span></p>
+<hr/>
 <h2>SolidWorks</h2>
 <p><strong>1993年</strong></p>
 <p>創始人<span>Jon Hirschtick</span>招募了一個工程師團隊，旨在使<span>3D CAD</span>軟體更容易上手。<span>Hirschtick</span>從廣受好評的麻省理工學院二十一點隊的成員中籌得<span>100</span>萬美元，開始了他的新事業。該團隊的目標是構建一個基於<span>Windows</span>平台的易於使用且價格合理的軟體。這在當時真的是革命性的存在，當時所有其他流行的<span>CAD</span>系統都是在<span>Unix</span>上構建的。經過幾年的開發，最初發布的<span>SolidWorks</span>終於來了</p>
@@ -980,6 +1147,7 @@ Host github.com
 </ul>
 <p><br/> <br/> 原文網址：<a href="https://kknews.cc/news/l9vp3ne.html">https://kknews.cc/news/l9vp3ne.html</a><br/> 參考資料<span>(1):<a href="https://kknews.cc/zh-tw/news/ey5ojpy.html">https://kknews.cc/zh-tw/news/ey5ojpy.html</a></span></p>
 <p>參考資料<span>(2):<a href="https://kknews.cc/news/l9vp3ne.html">https://kknews.cc/news/l9vp3ne.html</a></span></p>
+<hr/>
 <h2>NX</h2>
 <p><strong>1960年</strong></p>
 <p><span>McDonnell Douglas Automation 公司成立</span><br/><br/></p>
@@ -1042,6 +1210,1477 @@ Host github.com
 <span><span></span></span></div>
 </div>
 <p>參考網址:<a href="https://kknews.cc/zh-tw/news/j4l9pnl.html">https://kknews.cc/zh-tw/news/j4l9pnl.html</a></p>
+<hr/>
+<h2>NX快捷鍵</h2>
+<table>
+<tbody>
+<tr>
+<td width="273">
+<p><strong>文件<span>(F)</span></strong></p>
+</td>
+<td></td>
+</tr>
+<tr>
+<td width="273">
+<p>新建<span>(N)</span></p>
+</td>
+<td>
+<p>Ctrl+N</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>打開<span>(O)</span></p>
+</td>
+<td>
+<p>Ctrl+O</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>保存<span>(S)</span></p>
+</td>
+<td>
+<p>Ctrl+S</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>另存為<span>(A)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+A</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>繪圖<span>(L)</span></p>
+</td>
+<td>
+<p>Ctrl+P</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導入<span>(M)-</span>部件<span>(P)</span></p>
+</td>
+<td>
+<p>Ctrl+1</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導入<span>(M)-I-DEAS</span></p>
+</td>
+<td>
+<p>Ctrl+7</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導入<span>(M)-Parasolid</span></p>
+</td>
+<td>
+<p>Ctrl+2</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導入<span>(M)-NX-2D</span></p>
+</td>
+<td>
+<p>Ctrl+8</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導入<span>(M)-CGM</span></p>
+</td>
+<td>
+<p>Ctrl+9</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導入<span>(M)-STL</span></p>
+</td>
+<td>
+<p>Ctrl+0</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導入<span>(M)-IGES</span></p>
+</td>
+<td>
+<p>Ctrl+3</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導入<span>(M)-Step203</span></p>
+</td>
+<td>
+<p>Ctrl+4</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導入<span>(M)-DXF/DWG(&amp;D)</span></p>
+</td>
+<td>
+<p>Ctrl+5</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導出<span>(E)-</span>部件<span>(P)</span></p>
+</td>
+<td>
+<p>推移<span>+1</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導出<span>(E)-Parasolid</span></p>
+</td>
+<td>
+<p>推移<span>+2</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導出<span>(E)-CGM</span></p>
+</td>
+<td>
+<p>推移<span>+9</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導出<span>(E)-JPE</span></p>
+</td>
+<td>
+<p>推移<span>+8</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導出<span>(E)-TIFF</span></p>
+</td>
+<td>
+<p>推移<span>+7</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導出<span>(E)-IGE</span></p>
+</td>
+<td>
+<p>推移<span>+3</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導出<span>(E)-Step20</span></p>
+</td>
+<td>
+<p>推移<span>+4</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導出<span>(E)-DXF/DWG</span></p>
+</td>
+<td>
+<p>推移<span>+5</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>導出<span>(E)-2D</span>轉換（<span>2</span>）</p>
+</td>
+<td>
+<p>推移<span>+6</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>執行<span>(T)-</span>圖形交互編程<span>(Grip)</span></p>
+</td>
+<td>
+<p>Ctrl+G</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>執行<span>(T)-Grip</span>調試<span>(D)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+G</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>執行<span>(T)-NX</span>打開</p>
+</td>
+<td>
+<p>Ctrl+U</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p> </p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p><strong>編輯<span>(E)</span></strong></p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>撤銷列表<span>(U)-1</span>進入「建模」</p>
+</td>
+<td>
+<p>Ctrl+Z</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>粘貼<span>(P)</span></p>
+</td>
+<td>
+<p>Ctrl+V</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>刪除<span>(D)</span></p>
+</td>
+<td>
+<p>Ctrl+D</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>選擇<span>(L)-</span>全選<span>(A)</span></p>
+</td>
+<td>
+<p>Ctrl+A</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>隱藏<span>(B)-</span>隱藏<span>(B)</span></p>
+</td>
+<td>
+<p>Ctrl+B</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>隱藏<span>(B)-</span>互換顯示與隱藏<span>(R)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+B</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>隱藏<span>(B)-</span>不隱藏所選的<span>(S)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+K</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>隱藏<span>(B)-</span>顯示部件中所有的<span>(A)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+U</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>變換<span>(N)</span></p>
+</td>
+<td>
+<p>Ctrl+T</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>對象顯示<span>(J)</span></p>
+</td>
+<td>
+<p>Ctrl+J</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線<span>(V)-</span>全部<span>(A)</span></p>
+</td>
+<td>
+<p>推移<span>+E</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線<span>(V)-</span>修整<span>(T)</span></p>
+</td>
+<td>
+<p>推移<span>+T</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線<span>(V)-</span>裁剪角<span>(C)</span></p>
+</td>
+<td>
+<p>推移<span>+C</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線<span>(V)-</span>分割<span>(D)</span></p>
+</td>
+<td>
+<p>推移<span>+D</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線<span>(V)-CurveLength</span></p>
+</td>
+<td>
+<p>推移<span>+L</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>特徵<span>(F)-</span>去除參數<span>(V)</span></p>
+</td>
+<td>
+<p>推移<span>+V</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲面<span>(R)-</span>擴大<span>(A)</span></p>
+</td>
+<td>
+<p>Alt+推移<span>+L</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>面<span>(A)</span></p>
+</td>
+<td>
+<p>G</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p> </p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p><strong>視圖<span>(V)</span></strong></p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>操作<span>(O)-</span>縮放<span>(Z)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+Z</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>操作<span>(O)-</span>旋轉<span>(R)</span></p>
+</td>
+<td>
+<p>Ctrl+R</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>操作<span>(O)-</span>截面<span>(C)</span></p>
+</td>
+<td>
+<p>Ctrl+H</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>布局<span>(L)-</span>新建<span>(N)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+N</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>布局<span>(L)-</span>打開<span>(O)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+O</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>布局<span>(L)-</span>充滿所有視圖<span>(F)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+F</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>可視化<span>(V)-</span>高質量圖片<span>(H)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+H</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>信息窗口<span>(I)</span></p>
+</td>
+<td>
+<p>F4</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設方位<span>(E)</span></p>
+</td>
+<td>
+<p>Ctrl+F8</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>插入<span>(S)</span></p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>基準<span>/</span>點<span>(D)-</span>基準平面<span>(D)</span></p>
+</td>
+<td>
+<p>D</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>基準<span>/</span>點<span>(D)-</span>點<span>(P)</span></p>
+</td>
+<td>
+<p>P</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>基準<span>/</span>點<span>(D)-</span>點集<span>(S)</span></p>
+</td>
+<td>
+<p>Q</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線<span>(C)-</span>弧<span>/</span>圓<span>(C)</span></p>
+</td>
+<td>
+<p>Ctrl+C</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線<span>(C)-</span>基本曲線<span>(B)</span></p>
+</td>
+<td>
+<p>B</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線<span>(C)-</span>矩形<span>(R)</span></p>
+</td>
+<td>
+<p>推移<span>+R</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線<span>(C)-</span>多邊形<span>(P)</span></p>
+</td>
+<td>
+<p>推移<span>+Y</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線<span>(C)-</span>螺旋<span>(X)</span></p>
+</td>
+<td>
+<p>推移<span>+H</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線<span>(C)-</span>規律曲線<span>(W)</span></p>
+</td>
+<td>
+<p>推移<span>+W</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線<span>(C)-</span>樣條<span>(S)</span></p>
+</td>
+<td>
+<p>S</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線中的一條曲線<span>(F)-</span>偏置<span>(O)</span></p>
+</td>
+<td>
+<p>推移<span>+O</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線中的一條曲線<span>(F)-</span>在面上偏置</p>
+</td>
+<td>
+<p>推移<span>+F</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線中的一條曲線<span>(F)-</span>橋接<span>(B)</span></p>
+</td>
+<td>
+<p>推移<span>+B</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線中的一條曲線<span>(F)-</span>簡化<span>(S)</span></p>
+</td>
+<td>
+<p>推移<span>+M</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線中的一條曲線<span>(F)-</span>合併<span>(J)</span></p>
+</td>
+<td>
+<p>推移<span>+J</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線中的一條曲線<span>(F)-</span>投影<span>(P)</span></p>
+</td>
+<td>
+<p>推移<span>+P</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線中的一條曲線<span>(F)-</span>組合投影<span>(C)</span></p>
+</td>
+<td>
+<p>推移<span>+N</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線中的一條曲線<span>(F)-</span>纏繞<span>/</span>展開<span>(W)</span></p>
+</td>
+<td>
+<p>推移<span>+Q</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>體的曲線<span>(U)-</span>相交<span>(I)</span></p>
+</td>
+<td>
+<p>推移<span>+I</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>體的曲線<span>(U)-</span>截面<span>(S)</span></p>
+</td>
+<td>
+<p>推移<span>+S</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>體的曲線<span>(U)-</span>抽取<span>(E)</span></p>
+</td>
+<td>
+<p>推移<span>+X</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設計特徵<span>(E)-</span>拉伸<span>(E)</span></p>
+</td>
+<td>
+<p>X</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設計特徵<span>(E)-</span>迴轉</p>
+</td>
+<td>
+<p>V</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設計特徵<span>(E)-</span>長方體<span>(K)</span></p>
+</td>
+<td>
+<p>K</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設計特徵<span>(E)-</span>圓柱體<span>(C)</span></p>
+</td>
+<td>
+<p>Y</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設計特徵<span>(E)-</span>圓錐<span>(O)</span></p>
+</td>
+<td>
+<p>O</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設計特徵<span>(E)-</span>球<span>(S)</span></p>
+</td>
+<td>
+<p>R</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設計特徵<span>(E)-</span>孔<span>(H)</span></p>
+</td>
+<td>
+<p>Alt+H</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設計特徵<span>(E)-</span>圓台<span>(B)</span></p>
+</td>
+<td>
+<p>Alt+B</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設計特徵<span>(E)-</span>腔體<span>(P)</span></p>
+</td>
+<td>
+<p>Alt+K</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設計特徵<span>(E)-</span>凸墊<span>(A)</span></p>
+</td>
+<td>
+<p>Alt+D</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設計特徵<span>(E)-Emboss</span></p>
+</td>
+<td>
+<p>Alt+Z</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設計特徵<span>(E)-</span>鍵槽<span>(L)</span></p>
+</td>
+<td>
+<p>Alt+L</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>設計特徵<span>(E)-</span>溝槽<span>(G)</span></p>
+</td>
+<td>
+<p>Alt+G</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>關聯複製<span>(A)-</span>抽取<span>(E)</span></p>
+</td>
+<td>
+<p>Alt+X</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>關聯複製<span>(A)-</span>引用<span>(I)</span></p>
+</td>
+<td>
+<p>I</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>聯合體<span>(B)-</span>並<span>(U)</span></p>
+</td>
+<td>
+<p>Alt+U</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>聯合體<span>(B)-</span>差<span>(S)</span></p>
+</td>
+<td>
+<p>Alt+S</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>聯合體<span>(B)-</span>相交<span>(I)</span></p>
+</td>
+<td>
+<p>Alt+I</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>聯合體<span>(B)-</span>縫合<span>(W)</span></p>
+</td>
+<td>
+<p>E</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>Trim-DivideFace</p>
+</td>
+<td>
+<p>Alt+J</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>Trim-合併面<span>(J)</span></p>
+</td>
+<td>
+<p>Alt+Q</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>Trim-TrimBody</p>
+</td>
+<td>
+<p>T</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>Trim-分割<span>(P)</span></p>
+</td>
+<td>
+<p>Alt+P</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>Trim-修整片體<span>(R)</span></p>
+</td>
+<td>
+<p>Alt+推移<span>+T</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>Offset/Scale-OffsetSurface</p>
+</td>
+<td>
+<p>Alt+V</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>Offset/Scale-偏置面<span>(F)</span></p>
+</td>
+<td>
+<p>Alt+O</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>Offset/Scale-比例<span>(S)</span></p>
+</td>
+<td>
+<p>Alt+A</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>Offset/Scale-加厚片體<span>(T)</span></p>
+</td>
+<td>
+<p>F2</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>Offset/Scale-Shell</p>
+</td>
+<td>
+<p>H</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>Offset/Scale-包含幾何體<span>(G)</span></p>
+</td>
+<td>
+<p>F3</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>細節特徵<span>(L)-</span>邊倒圓<span>(E)</span></p>
+</td>
+<td>
+<p>Alt+E</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>細節特徵<span>(L)-</span>面倒圓<span>(F)</span></p>
+</td>
+<td>
+<p>Alt+F</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>細節特徵<span>(L)-</span>軟倒圓<span>(S)</span></p>
+</td>
+<td>
+<p>Alt+推移<span>+F</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>細節特徵<span>(L)-</span>橋接<span>(B)</span></p>
+</td>
+<td>
+<p>Alt+推移<span>+B</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>細節特徵<span>(L)-</span>倒角<span>(C)</span></p>
+</td>
+<td>
+<p>Alt+C</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>細節特徵<span>(L)-</span>草圖<span>(T)</span></p>
+</td>
+<td>
+<p>Alt+T</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲面<span>(R)-</span>延伸<span>(X)</span></p>
+</td>
+<td>
+<p>Alt+推移<span>+X</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲面<span>(R)-</span>由四點決定的曲面（<span>4</span>）</p>
+</td>
+<td>
+<p>Alt+推移<span>+4</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲面<span>(R)-</span>通過點<span>(H)</span></p>
+</td>
+<td>
+<p>Alt+推移<span>+P</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>網格曲面<span>(M)-</span>直紋面<span>(R)</span></p>
+</td>
+<td>
+<p>L</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>網格曲面<span>(M)-</span>通過曲線<span>(T)</span></p>
+</td>
+<td>
+<p>U</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>網格曲面<span>(M)-</span>通過曲線網格<span>(M)</span></p>
+</td>
+<td>
+<p>M</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>網格曲面<span>(M)-1x1</span></p>
+</td>
+<td>
+<p>Alt+1</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>網格曲面<span>(M)-1x2</span></p>
+</td>
+<td>
+<p>Alt+2</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>格曲面<span>(M)-2x0</span></p>
+</td>
+<td>
+<p>Alt+3</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>網格曲面<span>(M)-2x2</span></p>
+</td>
+<td>
+<p>Alt+4</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>網格曲面<span>(M)-nxn</span></p>
+</td>
+<td>
+<p>Alt+5</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>網格曲面<span>(M)-</span>截面<span>(S)</span></p>
+</td>
+<td>
+<p>Alt+推移<span>+S</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>網格曲面<span>(M)-N</span>邊表面<span>(I)</span></p>
+</td>
+<td>
+<p>Alt+推移<span>+N</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>掃描<span>(W)-</span>掃描<span>(S)</span></p>
+</td>
+<td>
+<p>W</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>掃描<span>(W)-</span>沿導引線掃描<span>(G)</span></p>
+</td>
+<td>
+<p>Alt+W</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>彎邊曲面<span>(G)-</span>按規律延伸<span>(L)</span></p>
+</td>
+<td>
+<p>Alt+推移<span>+W</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>直接建模<span>(I)-</span>替換面<span>(R</span></p>
+</td>
+<td>
+<p>F</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p> </p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p><strong>格式<span>(R)</span></strong></p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>層的設置<span>(S)</span></p>
+</td>
+<td>
+<p>Ctrl+L</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>在視圖中可見<span>(V)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+V</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>WCS-原點<span>(O)</span></p>
+</td>
+<td>
+<p>Alt+0</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>WCS-旋轉<span>(R)</span></p>
+</td>
+<td>
+<p>Alt+9</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>WCS-方位<span>(N)</span></p>
+</td>
+<td>
+<p>Alt+8</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>WCS-顯示<span>(P)</span></p>
+</td>
+<td>
+<p>Alt+7</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>WCS-保存<span>(S) </span></p>
+</td>
+<td>
+<p>Alt+6</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p> </p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p><strong>工具<span>(T)</span></strong></p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>表達式<span>(X)</span></p>
+</td>
+<td>
+<p>Ctrl+E</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>日記<span>(J)-</span>播放<span>(P)</span></p>
+</td>
+<td>
+<p>Alt+F8</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>日記<span>(J)-</span>編輯<span>(E)</span></p>
+</td>
+<td>
+<p>Alt+F11</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>宏<span>(R)-</span>開始記錄<span>(R)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+R</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>宏<span>(R)-</span>回放<span>(P)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+P</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>宏<span>(R)-</span>步長<span>(S)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+S</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p> </p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p><strong>信息<span>(I)</span></strong></p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>對象<span>(O)</span></p>
+</td>
+<td>
+<p>Ctrl+I</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>點<span>(P)</span></p>
+</td>
+<td>
+<p>C</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p><strong>分析(L)</strong></p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>距離<span>(D)</span></p>
+</td>
+<td>
+<p>N</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>角度<span>(A)</span></p>
+</td>
+<td>
+<p>A</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>曲線<span>(C)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+C</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>簡單幹涉<span>(I)</span></p>
+</td>
+<td>
+<p>Ctrl+X</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p> </p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p><strong>預設置<span>(P)</span></strong></p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>對象<span>(O)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+J</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>選擇<span>(E)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+T</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p> </p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p><strong>應用<span>(N</span></strong>)</p>
+</td>
+<td>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>建</p>
+</td>
+<td>
+<p>Ctrl+M</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>外觀造型設計<span>(T</span></p>
+</td>
+<td>
+<p>Ctrl+Alt+S</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>製圖<span>(D)</span></p>
+</td>
+<td>
+<p>Ctrl+推移<span>+D</span></p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>加工<span>(N)</span></p>
+</td>
+<td>
+<p>Ctrl+Alt+M</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>裝配<span>(L)</span></p>
+</td>
+<td>
+<p>Ctrl+Alt+W</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>基礎環境<span>(G)</span></p>
+</td>
+<td>
+<p>Ctrl+W</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>幫助<span>(H)-</span>在線幫助<span>(C)</span></p>
+</td>
+<td>
+<p>F1</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>刷新<span>(S)</span></p>
+</td>
+<td>
+<p>F5</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>適合窗口<span>(F)</span></p>
+</td>
+<td>
+<p>Ctrl+F</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>縮放<span>(Z)</span></p>
+</td>
+<td>
+<p>F6</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>旋轉<span>(O)</span></p>
+</td>
+<td>
+<p>F7</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>視圖方向<span>(R)-</span>正二測視圖<span>(T)</span></p>
+</td>
+<td>
+<p>Home</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>視圖方向<span>(R)-</span>正等測視圖<span>(I)</span></p>
+</td>
+<td>
+<p>End</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>視圖方向<span>(R)-</span>俯視圖<span>(O)</span></p>
+</td>
+<td>
+<p>Ctrl+Alt+T</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>視圖方向<span>(R)-</span>前視圖<span>(F)</span></p>
+</td>
+<td>
+<p>Ctrl+Alt+F</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>視圖方向<span>(R)-</span>右視圖<span>(R)</span></p>
+</td>
+<td>
+<p>Ctrl+Alt+R</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>視圖方向<span>(R)-</span>左視圖<span>(L)</span></p>
+</td>
+<td>
+<p>Ctrl+Alt+L</p>
+</td>
+</tr>
+<tr>
+<td width="273">
+<p>捕捉視圖<span>(N)</span></p>
+</td>
+<td>
+<p>F8</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span> </span></p>
+<hr/>
+<p></p>
 <h1>About</h1>
 <p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde" target="_blank">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
 <h4>利用 cmsimde 建立靜態網誌方法:</h4>

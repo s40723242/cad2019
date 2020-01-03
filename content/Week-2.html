@@ -154,45 +154,25 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Week7 << <a href='Week7.html'>Previous</a> <a href='week9.html'>Next</a> >> week9<br /><h1>week8</h1>
-<p><strong>1.啟用 CMSiMDE中的網誌系統</strong></p>
-<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/kmBA2kuugVA" width="560"></iframe></strong></p>
-<p>1.打開<span>leo edit</span></p>
-<p>2.<span>用</span><span>leo edit</span><span>將config中的pelican.leo做編輯</span></p>
-<p><span>3.將近端跑完的指令輸入到倉儲下執行</span></p>
-<p><span>4.完成</span></p>
-<p><strong>2.導入 Webots</strong></p>
-<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/zRJtB_qgNz4" width="560"></iframe></strong></p>
-<p>1.下載<a href="https://drive.google.com/file/d/1o8cAv-pSUyp69TUGhC7NvEznGrdNP5AC/view?usp=sharing">Webot 2019a.7z</a></p>
-<p>2.<span>複製start_mdecourse.bat並更名start_mdecourse -webot.bat</span></p>
-<p>3.將指令貼上</p>
-<p>4.按stop,開啟<span>start_mdecourse -webot.bat</span></p>
-<p><span>5.完成</span></p>
-<p><strong>3.以ssh對Github 連線</strong></p>
-<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Fsnl69z5aaQ" width="560"></iframe></strong></p>
-<p>1.將E:\201906_fall\data\portablegit\bin中的sh_for_solvespace_compile複製並更名為sh.exe</p>
-<p>2.進入黑窗輸入<span style="background-color: #ffffff; color: #00ffff;">ssh-keygen -t rsa -b 4096 -C "使用者學號"</span></p>
-<p>3.下載putty並透過putty.chm新增兩枚鑰使</p>
-<p>4.修改<span>start.bat:</span></p>
-<pre><span style="color: #00ffff;"><code>set GIT_HOME=%Disk%:\portablegit\bin\
-set GIT_SSH=%Disk%:\putty\plink.exe</code></span></pre>
-<p>5.修改自身<span>倉儲 .git 中的 config 檔案中的 url 設定</span></p>
-<pre><span style="color: #00ffff;"><code>url = <a href="mailto:git@github.com:mdecourse/cad2019.git">git@github.com:mdecourse/cad2019.git</a><br/></code></span></pre>
-<p>6.設定putty</p>
-<p>7.在Y:\home_mdecourse\.ssh中新增config並加入指令</p>
-<pre><span style="color: #00ffff;"><code>ProxyCommand y:/putty/plink.exe github.com %h %p
- 
-Host github.com
-    User git
-    Port 22
-    Hostname github.com
- 
-    TCPKeepAlive yes
-    IdentitiesOnly yes</code></span></pre>
-<p>8.在githun ssh設定中新增鑰使</p>
-<p>9.完成</p>
+    <div id="tipue_search_content">week2-5 << <a href='week2-5.html'>Previous</a> <a href='Week-3.html'>Next</a> >> Week-3<br /><h1>Week-2</h1>
+<p>第二週練習影片:</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/dL9M0pdp2aU" width="560"></iframe></p>
+<p>1.先將USB格式化為exFat(<span>單一檔案</span><b>大小</b><span>上限可達64ZB</span>)</p>
+<p>2.將<a href="https://drive.google.com/file/d/1fxMdqdCoCL__O1IpZ-Sv-A_4-c77Wx4E/view?usp=sharing" target="_blank">2019Fall可攜套件.7z</a>下在至USB內並進行解壓縮</p>
+<p>3.進入<a href="https://github.com" target="_blank">Github</a> <span>，</span>創建一個新的倉儲,並命名為''cad2019''</p>
+<p>4.git clone至自身的USB</p>
+<p>5.並進行身分輸入:</p>
+<p> git config  --global user.name "s40723242"</p>
+<p><span> git config  --global user.email "40723242@gm.nfu.edu.tw"</span></p>
+<p><span> git config  --global http.proxy [2001:288:6004:17:7]:3128 </span></p>
+<p>6.git submodule add<span> </span><a href="https://github.com/mdecourse/cmsimde.git" target="_blank">https://github.com/mdecourse/cmsimde.git</a> cmsimde</p>
+<p>7.下載附件 python -m pip install flask_cors</p>
+<p>8.進入 cmsimde 輸入 python wsgi.py 編輯頁面</p>
+<p>9.編輯完進入靜態網頁<span>，退到cad2019推上Github</span></p>
+<p><span>如何推上? git add . <span>⇒ git commit  -m "名稱" ⇒ git push</span></span></p>
+<p><span><span>10.完成</span></span></p>
 <hr/>
-<br />Week7 << <a href='Week7.html'>Previous</a> <a href='week9.html'>Next</a> >> week9</div>
+<br />week2-5 << <a href='week2-5.html'>Previous</a> <a href='Week-3.html'>Next</a> >> Week-3</div>
         
     <!-- footer -->
       <div class="container">

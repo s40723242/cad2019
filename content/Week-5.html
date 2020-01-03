@@ -154,45 +154,35 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Week7 << <a href='Week7.html'>Previous</a> <a href='week9.html'>Next</a> >> week9<br /><h1>week8</h1>
-<p><strong>1.啟用 CMSiMDE中的網誌系統</strong></p>
-<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/kmBA2kuugVA" width="560"></iframe></strong></p>
-<p>1.打開<span>leo edit</span></p>
-<p>2.<span>用</span><span>leo edit</span><span>將config中的pelican.leo做編輯</span></p>
-<p><span>3.將近端跑完的指令輸入到倉儲下執行</span></p>
-<p><span>4.完成</span></p>
-<p><strong>2.導入 Webots</strong></p>
-<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/zRJtB_qgNz4" width="560"></iframe></strong></p>
-<p>1.下載<a href="https://drive.google.com/file/d/1o8cAv-pSUyp69TUGhC7NvEznGrdNP5AC/view?usp=sharing">Webot 2019a.7z</a></p>
-<p>2.<span>複製start_mdecourse.bat並更名start_mdecourse -webot.bat</span></p>
-<p>3.將指令貼上</p>
-<p>4.按stop,開啟<span>start_mdecourse -webot.bat</span></p>
-<p><span>5.完成</span></p>
-<p><strong>3.以ssh對Github 連線</strong></p>
-<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Fsnl69z5aaQ" width="560"></iframe></strong></p>
-<p>1.將E:\201906_fall\data\portablegit\bin中的sh_for_solvespace_compile複製並更名為sh.exe</p>
-<p>2.進入黑窗輸入<span style="background-color: #ffffff; color: #00ffff;">ssh-keygen -t rsa -b 4096 -C "使用者學號"</span></p>
-<p>3.下載putty並透過putty.chm新增兩枚鑰使</p>
-<p>4.修改<span>start.bat:</span></p>
-<pre><span style="color: #00ffff;"><code>set GIT_HOME=%Disk%:\portablegit\bin\
-set GIT_SSH=%Disk%:\putty\plink.exe</code></span></pre>
-<p>5.修改自身<span>倉儲 .git 中的 config 檔案中的 url 設定</span></p>
-<pre><span style="color: #00ffff;"><code>url = <a href="mailto:git@github.com:mdecourse/cad2019.git">git@github.com:mdecourse/cad2019.git</a><br/></code></span></pre>
-<p>6.設定putty</p>
-<p>7.在Y:\home_mdecourse\.ssh中新增config並加入指令</p>
-<pre><span style="color: #00ffff;"><code>ProxyCommand y:/putty/plink.exe github.com %h %p
- 
-Host github.com
-    User git
-    Port 22
-    Hostname github.com
- 
-    TCPKeepAlive yes
-    IdentitiesOnly yes</code></span></pre>
-<p>8.在githun ssh設定中新增鑰使</p>
-<p>9.完成</p>
+    <div id="tipue_search_content">Week-4 << <a href='Week-4.html'>Previous</a> <a href='week6-9.html'>Next</a> >> week6-9<br /><h1>Week-5</h1>
+<p><strong>solvespace繪製練習-<a class="ytp-title-link yt-uix-sessionlink" data-sessionlink="feature=player-title" href="https://www.youtube.com/watch?v=7HtF2MBwO-o" target="_blank">Solvespace Tutorial 4 - Assembly</a></strong> </p>
+<p> 1-建立一個20X20的方形(<span>快捷鍵R</span>)<span>，分別</span>擠出長500的桌框及200的桌腳(Shift+x)<span>，個別另存新檔，成為個別的零件.</span></p>
+<p><span> 2-將桌框及桌腳利用方位變換(快捷鍵x)及結點接合(快捷鍵o)，組起桌架.</span></p>
+<p><span> 3-在建立一個540X540的方形(<span>快捷鍵R</span><span>)，分別<span>擠出寬12的桌面(Shift+x)另存新檔.</span></span></span></p>
+<p><span><span><span> 4-將桌面跟桌架合併.(<span>快捷鍵x)及(<span>快捷鍵o)</span></span></span></span></span></p>
+<p><span><span><span><span><span>完成圖:</span></span></span></span></span></p>
+<p><span><span><span><span><span><img caption="false" height="321" src="./../images/solvespace_2019-10-17_16-15-24.png" width="500"/></span></span></span></span></span></p>
+<p><span><span><span><span><span>操作影片:</span></span></span></span></span></p>
+<p><span><span><span><span><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/kRfXhxsMwAw" width="560"></iframe></span></span></span></span></span></p>
+<p><span><span><span><span><span>使用快捷鍵:</span></span></span></span></span></p>
+<p><strong>Sketch:</strong></p>
+<p><span><span><span><span><span>rectangle-R</span></span></span></span></span></p>
+<p><strong>Constrain:</strong></p>
+<p><span><span><span><span><span>lengh -<span>D</span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span>equal length/radius/angle-Q</span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span><span>point on line/curve/plane/point-O</span></span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span><span>normals in same direction-X</span></span></span></span></span></span></span></p>
+<p><strong>New group:</strong></p>
+<p><span>extrude -Shift+X</span></p>
+<p><span>linking/assembling file-Shift+I</span></p>
+<p><strong>Perspective:</strong></p>
+<p><span><span><span><span><span><span><span>nearest isometric view -<span>F3</span></span></span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span><span><span>align view to workplane-<span>W</span></span></span></span></span></span></span></span></span></p>
+<p><span><span><span><span><span>操作影片:</span></span></span></span></span></p>
+<p><strong>2.閱讀手冊熟悉solvespace<a href="http://solvespace.com/ref.pl" target="_blank"><span> </span>reference</a></strong></p>
+<p><strong>3.將自評及互評填寫完畢<a href="https://forms.gle/raTtrfjv8cMMVSZd6">課程評量表單</a></strong></p>
 <hr/>
-<br />Week7 << <a href='Week7.html'>Previous</a> <a href='week9.html'>Next</a> >> week9</div>
+<br />Week-4 << <a href='Week-4.html'>Previous</a> <a href='week6-9.html'>Next</a> >> week6-9</div>
         
     <!-- footer -->
       <div class="container">

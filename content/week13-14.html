@@ -154,45 +154,53 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Week7 << <a href='Week7.html'>Previous</a> <a href='week9.html'>Next</a> >> week9<br /><h1>week8</h1>
-<p><strong>1.啟用 CMSiMDE中的網誌系統</strong></p>
-<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/kmBA2kuugVA" width="560"></iframe></strong></p>
-<p>1.打開<span>leo edit</span></p>
-<p>2.<span>用</span><span>leo edit</span><span>將config中的pelican.leo做編輯</span></p>
-<p><span>3.將近端跑完的指令輸入到倉儲下執行</span></p>
-<p><span>4.完成</span></p>
-<p><strong>2.導入 Webots</strong></p>
-<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/zRJtB_qgNz4" width="560"></iframe></strong></p>
-<p>1.下載<a href="https://drive.google.com/file/d/1o8cAv-pSUyp69TUGhC7NvEznGrdNP5AC/view?usp=sharing">Webot 2019a.7z</a></p>
-<p>2.<span>複製start_mdecourse.bat並更名start_mdecourse -webot.bat</span></p>
-<p>3.將指令貼上</p>
-<p>4.按stop,開啟<span>start_mdecourse -webot.bat</span></p>
-<p><span>5.完成</span></p>
-<p><strong>3.以ssh對Github 連線</strong></p>
-<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Fsnl69z5aaQ" width="560"></iframe></strong></p>
-<p>1.將E:\201906_fall\data\portablegit\bin中的sh_for_solvespace_compile複製並更名為sh.exe</p>
-<p>2.進入黑窗輸入<span style="background-color: #ffffff; color: #00ffff;">ssh-keygen -t rsa -b 4096 -C "使用者學號"</span></p>
-<p>3.下載putty並透過putty.chm新增兩枚鑰使</p>
-<p>4.修改<span>start.bat:</span></p>
-<pre><span style="color: #00ffff;"><code>set GIT_HOME=%Disk%:\portablegit\bin\
-set GIT_SSH=%Disk%:\putty\plink.exe</code></span></pre>
-<p>5.修改自身<span>倉儲 .git 中的 config 檔案中的 url 設定</span></p>
-<pre><span style="color: #00ffff;"><code>url = <a href="mailto:git@github.com:mdecourse/cad2019.git">git@github.com:mdecourse/cad2019.git</a><br/></code></span></pre>
-<p>6.設定putty</p>
-<p>7.在Y:\home_mdecourse\.ssh中新增config並加入指令</p>
-<pre><span style="color: #00ffff;"><code>ProxyCommand y:/putty/plink.exe github.com %h %p
- 
-Host github.com
-    User git
-    Port 22
-    Hostname github.com
- 
-    TCPKeepAlive yes
-    IdentitiesOnly yes</code></span></pre>
-<p>8.在githun ssh設定中新增鑰使</p>
-<p>9.完成</p>
+    <div id="tipue_search_content">week12 << <a href='week12.html'>Previous</a> <a href='week15-18.html'>Next</a> >> week15-18<br /><h1>week13-14</h1>
+<p><strong>第13周以前的內容報告:</strong></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/izai2_AApaE" width="560"></iframe></strong></p>
+<p><strong><span>Webots及Vrep之介紹:</span></strong></p>
+<p><strong><span>Webots</span></strong></p>
+<p><strong><span><img alt="webot" caption="false" src="http://www.sensorobots.net/wp-content/uploads/2013/08/webot.jpg" width="150"/></span></strong></p>
+<p>Webots是移動式機器人建模、程式撰寫與模擬軟體，內建機器人資料庫，可將控制程式傳送至多種真實的機器人，可定義完整的移動機器人模擬，包含模型性質，如形狀、質量、摩擦力等，以及多個感測器與致動器。以內建IDE撰寫控制程式與環境、軟體模擬，並由程式控制真實機器人。</p>
+<p><strong><span>Vrep</span></strong></p>
+<p><img alt="[連載0]Vrep入門介紹" caption="false" src="https://pic2.zhimg.com/v2-115fc76be5f99897f64919bdbb6a7ebd_1200x500.jpg" width="150"/></p>
+<p><span>Vrep是一款動力學模擬軟體，主要定位於機器人模擬建模領域，可以利用內嵌腳本、ROS節點、遠程API客戶端等實現分散式的控制結構，是非常理想的機器人模擬建模的工具。控制器可以採用C/C++, Python, Java, Lua, Matlab, Octave or Urbi等語言實現。</span></p>
+<p><strong><span>webots all tutorial :</span></strong></p>
+<p><strong><span>tutorial</span>1:</strong></p>
+<p>1.建立場景</p>
+<p>2.設定場景參數</p>
+<p>3.新增物件並設定物件參數,並複製三個</p>
+<p>4.新增機器人並施加拉力測試</p>
+<p>5.將程式導入機器人路徑</p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/jI3fncsfBe0" width="560"></iframe></strong></p>
+<p><strong><span>tutorial2</span>:</strong></p>
+<p>1.刪去原有場景</p>
+<p>2.<span>在children中新增一個形狀節點，形狀幾何中新增球形節點</span></p>
+<p><span>3.形狀外觀中新增幾何圖形節點並設定屬性、粗糙度及跟改顏色</span></p>
+<p><span>4.實體邊界中新增形狀節點，形狀幾何中新增箱型節點</span></p>
+<p><span>5.設定參數</span></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/1BRHvV2r_XM" width="560"></iframe></strong></p>
+<p><strong><span>tutorial3</span>:</strong></p>
+<p>1.<span>修改牆壁的外觀，在第一面牆的Appearance中的baseColor改成藍色，設定參數</span></p>
+<p><span>2.將球體新增紋路</span></p>
+<p>3.<span>ImageTexture的url&gt;WEBOTS_HOME / projects / default / worlds / textures / red_brick_wall.jpg 路徑下的圖片</span></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/jj9itYxSDI8" width="560"></iframe></strong></p>
+<p><strong><span>tutorial4</span>:</strong></p>
+<p>1.理解機器人路徑程式的編輯模式後,將路徑程式做更改</p>
+<p>2.<span>新增一個控制程式碼檔案，並命名為e-puck_avoid_collision，自動迴避程式碼加入</span></p>
+<p>3.機器人將自動迴避障礙物</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/cz1OxRY40ZE" width="560"></iframe></p>
+<p><strong><span>tutorial5</span>:</strong></p>
+<p>1.將所有物件刪除只留場景</p>
+<p>2.新增啞鈴，<span>新增Solid，在Shape中的geometry新增cylinder，並將height改為0.1及radius改為0.01</span></p>
+<p><span>3.在Transform中的children新增Shape，並在底下的geometry新增Sphere，然後將底下的radius改為0.03，並設定位置參數</span></p>
+<p><span>4.調整啞鈴位置，將rotation中的數值改為(1,0,0,1.5708)，且translation Y軸改為0.03</span></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/N7dKD10f-6E" width="560"></iframe></strong></p>
+<p><strong><span>tutorial6</span>:</strong></p>
+<p></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/GGpXT8I4NmM" width="560"></iframe></strong></p>
+<p><strong><span> </span></strong><span></span></p>
 <hr/>
-<br />Week7 << <a href='Week7.html'>Previous</a> <a href='week9.html'>Next</a> >> week9</div>
+<br />week12 << <a href='week12.html'>Previous</a> <a href='week15-18.html'>Next</a> >> week15-18</div>
         
     <!-- footer -->
       <div class="container">
