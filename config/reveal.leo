@@ -33,6 +33,9 @@
 <v t="leo.20191107233240.1"><vh>w8</vh>
 <v t="leo.20191107233240.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200109221925.1"><vh>w9</vh>
+<v t="leo.20200109221925.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20191206133054.1"><vh>w10</vh>
 <v t="leo.20191206133054.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -42,14 +45,23 @@
 <v t="leo.20200109205507.1"><vh>w13~14</vh>
 <v t="leo.20200109205507.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200109222420.1"><vh>w13~14</vh>
+<v t="leo.20200109222420.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200109205529.1"><vh>w15</vh>
 <v t="leo.20200109205529.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20200109205620.1"><vh>w16</vh>
 <v t="leo.20200109205620.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200109223000.1"><vh>w16</vh>
+<v t="leo.20200109223000.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200109205622.1"><vh>w17</vh>
 <v t="leo.20200109205622.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200109223111.1"><vh>w17</vh>
+<v t="leo.20200109223111.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
@@ -449,7 +461,9 @@ Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
 
 * Task3:熟悉NX介面
 
+[bg4](https://s40723204.github.io/cad2019bg4/content/index.html)
 [My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+
 </t>
 <t tx="leo.20191206133124.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -500,7 +514,9 @@ Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
 </t>
 <t tx="leo.20200109205529.2"># [Week 15](https://s40723242.github.io/cad2019/content/week15.html)
 
-* Task1:回顧及檢視第15周以前內容
+* 回顧及檢視第15周以前內容
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YSm6I95JHPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
 </t>
@@ -535,6 +551,76 @@ Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
 * W17協同任務-1:編譯Model definition及Webots User Guide 1內容整理
 
 * W17協同任務-2:越野車增加物理阻尼
+
+[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+</t>
+<t tx="leo.20200109221925.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109221925.2"># [Week 9期中報告](https://s40723242.github.io/cad2019/content/week9.html)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/R1yTnufqg08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+</t>
+<t tx="leo.20200109222420.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109222420.2"># [Week 13~14](https://s40723242.github.io/cad2019/content/week13-14.html)
+
+[Vrep  Tutorial](https://www.youtube.com/watch?v=g0YI68GV-s8)
+[Webots  Tutorial-1](https://www.youtube.com/watch?v=jI3fncsfBe0)
+[Webots  Tutorial-2](https://www.youtube.com/watch?v=1BRHvV2r_XM)
+[Webots  Tutorial-3](https://www.youtube.com/watch?v=jj9itYxSDI8)
+[Webots  Tutorial-4](https://www.youtube.com/watch?v=cz1OxRY40ZE)
+[Webots  Tutorial-5](https://www.youtube.com/watch?v=N7dKD10f-6E)
+[Webots  Tutorial-6](https://www.youtube.com/watch?v=GGpXT8I4NmM)
+
+[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+</t>
+<t tx="leo.20200109223000.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109223000.2"># [Week 16](https://s40723242.github.io/cad2019/content/week16.html)
+
+* 越野車零組件設計繪圖查驗
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/TAmZBtGd_mU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+</t>
+<t tx="leo.20200109223111.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109223111.2"># [Week 17](https://s40723242.github.io/cad2019/content/week12.html)
+
+* 越野車添加阻尼
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Eu5uiQxTNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
 </t>
