@@ -226,14 +226,9 @@ Host github.com
 <hr/>
 <p><strong>week9</strong></p>
 <p><strong>期中影片:</strong></p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
-<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/R1yTnufqg08" width="560"></iframe></strong></p>
-<h3>Week-6</h3>
-<p>=======</p>
-<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/R1yTnufqg08" width="560"></iframe></strong></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/R1yTnufqg08" width="560"></iframe></strong><strong></strong></p>
 <hr/>
 <h3>Week6</h3>
-<p>&gt;&gt;&gt;&gt;&gt;&gt;&gt; f56ca434bc6a269c00e081538876095eae78dcef</p>
 <p><strong><a href="https://github.com/mdecourse/cad2019/issues/16" target="_blank">任務</a></strong></p>
 <p><strong>1.機械設計工程系-電腦輔助設計實習 W6 任務一參數化零組件繪製</strong></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/OE-A-7OtnaE" width="560"></iframe></p>
@@ -836,7 +831,7 @@ Host github.com
 <h2>week15-18</h2>
 <p><span>LINK</span></p>
 <p><a href="https://s40723242.github.io/cad2019/content/week15.html" target="_blank">week15</a></p>
-<p><span>week16</span></p>
+<p><a href="https://s40723242.github.io/cad2019/content/week16.html" target="_blank">week16</a></p>
 <p><span>week17</span></p>
 <p><span>week18</span></p>
 <hr/>
@@ -854,45 +849,42 @@ Host github.com
 <p><yt-formatted-string class="style-scope ytd-video-primary-info-renderer" force-default-style="">W17協同任務:</yt-formatted-string></p>
 <p><strong>Model definition:</strong></p>
 <p>原文:</p>
-<p>Now we are ready to define our model. We start by building the model herarchy: we attach the last dynamic robot link (<em>robot_link_dyn6</em>) to its corresponding joint (<em>robot_joint6</em>) by selecting <em>robot_link_dyn6</em>, then control-selecting <em>robot_joint6</em>, then [Menu bar --&gt; Edit --&gt; Make last selected object parent]. We could also have done this step by simply dragging object <em>robot_link_dyn6</em> onto <em>robot_link6</em> in the <a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm#SceneHierarchy">scene hierarchy</a>. We go on by now attaching <em>robot_joint6</em> to <em>robot_link_dyn5</em>, and so on, until arrived at the base of the robot. We now have following scene hierarchy:<br/> </p>
+<p>Now we are ready to define our model. We start by building the model herarchy: we attach the last dynamic robot link (<em>robot_link_dyn6</em>) to its corresponding joint (<em>robot_joint6</em>) by selecting <em>robot_link_dyn6</em>, then control-selecting <em>robot_joint6</em>, then [Menu bar --&gt; Edit --&gt; Make last selected object parent]. We could also have done this step by simply dragging object <em>robot_link_dyn6</em> onto <em>robot_link6</em> in the <a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm#SceneHierarchy">scene hierarchy</a>. We go on by now attaching <em>robot_joint6</em> to <em>robot_link_dyn5</em>, and so on, until arrived at the base of the robot. We now have following scene hierarchy:</p>
 <p>中譯:</p>
+<p style="text-align: left;">現在我們準備定義模型了。 我們從建立模型層次結構開始：通過選擇robot_link_dyn6，然後控制選擇robot_joint6，然後選擇[菜單欄-&gt;編輯-&gt;使最後一個選中的對象，將最後一個動態機器人鏈接（robot_link_dyn6）附加到其相應的關節（robot_joint6）。 我們還可以通過簡單地將對象robot_link_dyn6拖到場景層次結構中的robot_link6上來完成此步驟。 現在，我們將robot_joint6附加到robot_link_dyn5上，依此類推，直到到達機器人的底部。 現在，我們具有以下場景層次結構：</p>
 <p>原文:</p>
-<p>It is nice and more logical to have a simple name for the model base, since the model base will also represent the model itself. So we rename <em>robot</em> to <em>robot_visibleBase</em>, and <em>robot_dyn</em> to <em>robot</em>. Now we select the base of the hierarchy tree (i.e. object <em>robot</em>) and in the <a href="http://www.coppeliarobotics.com/helpFiles/en/commonPropertiesDialog.htm">object common properties</a> we enable <strong>Object is model base</strong>. We also enable <strong>Object/model can transfer or accept DNA</strong>. A model bounding box appeared, encompassing the whole robot. The bounding box however appears to be too large: this is because the bounding box also encompasses the invisible items, such as the joints. We now exclude the joints from the model bounding box by enabling the <strong>Don't show as inside model selection</strong> item for all joints. We could do the same procedure for all invisible items in our model. This is also a useful option in order to also exclude large sensors or other items from the model bounding box. We now have following situation:<br/> <br/> <br/><br/></p>
+<p>It is nice and more logical to have a simple name for the model base, since the model base will also represent the model itself. So we rename <em>robot</em> to <em>robot_visibleBase</em>, and <em>robot_dyn</em> to <em>robot</em>. Now we select the base of the hierarchy tree (i.e. object <em>robot</em>) and in the <a href="http://www.coppeliarobotics.com/helpFiles/en/commonPropertiesDialog.htm">object common properties</a> we enable <strong>Object is model base</strong>. We also enable <strong>Object/model can transfer or accept DNA</strong>. A model bounding box appeared, encompassing the whole robot. The bounding box however appears to be too large: this is because the bounding box also encompasses the invisible items, such as the joints. We now exclude the joints from the model bounding box by enabling the <strong>Don't show as inside model selection</strong> item for all joints. We could do the same procedure for all invisible items in our model. This is also a useful option in order to also exclude large sensors or other items from the model bounding box. We now have following situation:</p>
 <p>中譯:</p>
+<p>為模型庫起一個簡單的名字是很好而且更合乎邏輯的，因為模型庫也將代表模型本身。 因此，我們將robot重命名為robot_visibleBase，並將robot_dyn重命名為robot。 現在我們選擇層次結構樹的基礎（即對像機械手臂），並在對象公共屬性中啟用``對像是模型基礎''。 我們還使對象/模型可以轉移或接受DNA。 出現了一個模型包圍盒，包圍了整個機器人。 但是，邊界框似乎太大：這是因為邊界框還包含不可見的項，例如關節。 現在，通過對所有關節啟用“不顯示為內部模型”選擇項，將關節從模型邊界框中排除。 我們可以對模型中的所有不可見項執行相同的過程。 這也是一個有用的選項，可以將大型傳感器或其他項目也排除在模型邊界框之外。 我們現在有以下情況：</p>
 <p>原文:</p>
 <p>We now protect our model from accidental modification. We select all visible objects in the robot, then enable <strong>Select base of model instead</strong>: if we now click a visible link in the scene, the base of the robot will be selected instead. This allows us to manipulate the model as if it was a single object. We can still select visible objects in the robot via control-shift-clicking in the scene, or by selecting the object in the scene hierarchy. We now put the robot into a correct default position/orientation. First, we save current scene as a reference (e.g. if at a later stage we need to import CAD data that have the same orientation at the curent robot). Then we select the model and <a href="http://www.coppeliarobotics.com/helpFiles/en/coordinateDialog.htm">modify its position/orientation</a> appropriately. It is considered good practice to position the model (i.e. its base object) at X=0 and Y=0.</p>
-<p></p>
 <p>中譯:</p>
+<p>現在，我們保護模型免受意外修改。 我們選擇機器人中的所有可見對象，然後啟用“選擇模型的基礎”：如果現在單擊場景中的可見鏈接，則會改為選擇機器人的基礎。 這使我們可以像對待單個對像一樣操作模型。 我們仍然可以通過按住Shift鍵並單擊場景或在場景層次中選擇對象來選擇機器人中的可見對象。 現在，我們將機器人置於正確的默認位置/方向。 首先，我們將當前場景保存為參考（例如，如果稍後需要在當前機器人上導入方向相同的CAD數據）。 然後，我們選擇模型並適當修改其位置/方向。 將模型（即其基礎對象）定位在X = 0和Y = 0處被認為是一種好習慣。</p>
 <p>原文:</p>
 <p>We now run the simulation: the robot will collapse, since the joints are not controlled by default. <a href="http://www.coppeliarobotics.com/helpFiles/en/buildingAModelTutorial.htm#joints">When we added the joints in the previous stage</a>, we created joints in force/torque mode, but their motor or controller was disabled (by default). We can now adjust our joints to our requirements. In our case, we want a simple PID controller for each one of them. In the joint dynamic properties, we click <strong>Motor enabled</strong> and adjust the <strong>maximum torque</strong>. We then click <strong>Control loop enabled</strong> and select <strong>Position control (PID)</strong>. We now run the simulation again: the robot should hold its position. Try to switch the current physics engine to see if the behaviour is consistent across all supported physics engines. You can do this via the appropriate <a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm#toolbars">toolbar button</a>, or in the <a href="http://www.coppeliarobotics.com/helpFiles/en/dynamicsDialog.htm">general dynamics properties</a>.</p>
 <p>During simulation, we now verify the scene dynamic content via the <a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm#toolbars">Dynamic content visualization &amp; verification toolbar button</a>. Now, only items that are taken into account by the physics engine will be display, and the display is <a href="http://www.coppeliarobotics.com/helpFiles/en/designingDynamicSimulations.htm#dynamicContentVisualization">color-coded</a>.</p>
-<p></p>
 <p>中譯:</p>
-<p></p>
+<p>現在我們運行模擬：由於默認情況下關節不受控制，因此機器人將解離。在上一階段添加關節時，我們以力/扭矩模式創建了關節，但其電動機或控制器已禁用（默認情況下）。現在，我們可以根據需要調整關節。在我們的案例中，我們希望為每個控制器都提供一個簡單的PID控制器。在關節動態屬性中，點擊“啟用電機”並調整最大扭矩。然後，點擊啟用控制環，然後選擇位置控制（PID）。現在，我們再次運行仿真：機器人應保持其位置。嘗試切換當前的物理引擎，以查看行為在所有受支持的物理引擎之間是否一致。您可以通過相應的工具欄按鈕或在常規動力學屬性中執行此操作。</p>
+<p>在仿真過程中，我們現在通過“動態內容可視化和驗證”工具欄按鈕來驗證場景動態內容。現在，將僅顯示物理引擎考慮的項目，並且該顯示使用顏色編碼。</p>
 <hr/>
 <p><strong>Webots User Guide 1:</strong></p>
 <p><strong>原文:</strong></p>
 <p>Now, changing the radius field of the first <span><a href="https://cyberbotics.com/doc/reference/sphere">Sphere</a></span> node also modifies its boundingObject.</p>
 <p>For convenience, the boundingObject field accepts also the <span><a href="https://cyberbotics.com/doc/reference/shape">Shape</a></span> node (rather than the <span><a href="https://cyberbotics.com/doc/reference/sphere">Sphere</a></span> node directly). It would be also possible to use the same DEF-USE mechanism at the <span><a href="https://cyberbotics.com/doc/reference/shape">Shape</a></span> level as shown in <span><a href="https://cyberbotics.com/doc/guide/tutorial-2-modification-of-the-environment#def-use-mechanism-applied-on-the-shape-node-of-a-solid">this figure</a></span>. For now the greatest benefit is being able to also use this <span><a href="https://cyberbotics.com/doc/reference/shape">Shape</a></span> directly for graphical purposes. Later this mechanism will turn out to be very useful for some sensors.</p>
 <p><strong>中譯:</strong></p>
+<p>現在，更改第一個Sphere節點的半徑字段也會修改其boundingObject。</p>
+<p>為了方便起見，boundingObject字段還接受Shape節點（而不是直接接受Sphere節點）。 如圖所示，也可以在Shape級別使用相同的DEF-USE機制。 到目前為止，最大的好處就是也可以直接將此Shape用於圖形目的。 後來，對於某些傳感器，該機制將變得非常有用。</p>
 <p><strong>原文:</strong></p>
-<p>DEF-USE mechanism on the Sphere node called BALL_GEOMETRY.</p>
-<p><span>physics</span></p>
-<p><span>boundingObject</span></p>
-<p><span>children</span></p>
-<p><span>geometry</span></p>
-<p><span><a href="https://cyberbotics.com/doc/reference/solid">Solid</a></span></p>
-<p><span><a href="https://cyberbotics.com/doc/reference/physics">Physics</a></span></p>
-<p>USE BALL_GEOMETRY</p>
-<p><span><a href="https://cyberbotics.com/doc/reference/shape">Shape</a></span></p>
-<p><span><a href="https://cyberbotics.com/doc/reference/sphere">DEF BALL_GEOMETRY Sphere</a></span></p>
-<p>DEF-USE mechanism applied on the Shape node of a Solid.</p>
+<p></p>
 <p><strong>Hands-on #7</strong>: Create a second ball with the same parameters but using the <a href="https://cyberbotics.com/doc/reference/shape">Shape</a> node (rather than the <a href="https://cyberbotics.com/doc/reference/sphere">Sphere</a> node directly) for the DEF-USE mechanism.</p>
 <p><strong>中譯:</strong></p>
+<p>動手練習7：使用DEF-USE機制的Shape節點（而不是直接使用Sphere節點）創建具有相同參數的第二個球。</p>
 <hr/>
 <p><strong>W17心得:</strong></p>
-<p><span>本周的測驗讓我們把越野車的模組導入到Vrep，並增加圓桿讓支架再越過障礙物時能穩定通過，雖然距離獨立設計還很久，但我希望下學期的課程。</span><br/><strong>W17個人任務:</strong></p>
-<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/5Eu5uiQxTNA" width="560"></iframe></strong></p><h3>week15</h3>
+<p><span>本周的測驗讓我們把越野車的模組導入到Vrep，並增加圓桿讓支架再越過障礙物時能穩定通過，雖然距離獨立設計還很久，但我希望下學期的課程。</span></p>
+<p><br/><strong>W17個人任務:</strong></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/5Eu5uiQxTNA" width="560"></iframe></strong></p>
+<h3>week15</h3>
 <p><strong>15周前心得:</strong></p>
 <p>在與組員協同後，雖然在一開始會有許多技術上的落差及衝突，但在各<span>組員及老師的催促下，也漸漸地跟上腳步，當我們在整理solidwork、nx及cero後除了更加了解軟件的來歷也更了解他是如何使用，在13周後開始接觸Webots及Vrep，或許是剛開始不太熟悉做得有些痛苦，任何東西都必須從0開始，Vrep更是如此，但透過Webots及Vrep的教學網站慢慢一點的練習，也漸漸的克服困難，希望能把這兩套軟件學好，讓未來能有更好的工具能夠使用。</span></p>
 <p><strong>15周以前回顧報告:</strong></p>
@@ -903,6 +895,46 @@ Host github.com
 <p>雖然這支影片未在查驗時間上傳，但經過這次的錯誤後也學習到許多一些軟件的特性，希望經過這次未來能在時間壓力下能呈現最完整的作品。</p>
 <p><strong>第16周越野車零組件設計繪圖查驗:</strong></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/TAmZBtGd_mU" width="560"></iframe></p>
+<hr/>
+<h3>week17</h3>
+<p><yt-formatted-string class="style-scope ytd-video-primary-info-renderer" force-default-style="">W17協同任務:</yt-formatted-string></p>
+<p><strong>Model definition:</strong></p>
+<p>原文:</p>
+<p>Now we are ready to define our model. We start by building the model herarchy: we attach the last dynamic robot link (<em>robot_link_dyn6</em>) to its corresponding joint (<em>robot_joint6</em>) by selecting <em>robot_link_dyn6</em>, then control-selecting <em>robot_joint6</em>, then [Menu bar --&gt; Edit --&gt; Make last selected object parent]. We could also have done this step by simply dragging object <em>robot_link_dyn6</em> onto <em>robot_link6</em> in the <a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm#SceneHierarchy">scene hierarchy</a>. We go on by now attaching <em>robot_joint6</em> to <em>robot_link_dyn5</em>, and so on, until arrived at the base of the robot. We now have following scene hierarchy:</p>
+<p>中譯:</p>
+<p style="text-align: left;">現在我們準備定義模型了。 我們從建立模型層次結構開始：通過選擇robot_link_dyn6，然後控制選擇robot_joint6，然後選擇[菜單欄-&gt;編輯-&gt;使最後一個選中的對象，將最後一個動態機器人鏈接（robot_link_dyn6）附加到其相應的關節（robot_joint6）。 我們還可以通過簡單地將對象robot_link_dyn6拖到場景層次結構中的robot_link6上來完成此步驟。 現在，我們將robot_joint6附加到robot_link_dyn5上，依此類推，直到到達機器人的底部。 現在，我們具有以下場景層次結構：</p>
+<p>原文:</p>
+<p>It is nice and more logical to have a simple name for the model base, since the model base will also represent the model itself. So we rename <em>robot</em> to <em>robot_visibleBase</em>, and <em>robot_dyn</em> to <em>robot</em>. Now we select the base of the hierarchy tree (i.e. object <em>robot</em>) and in the <a href="http://www.coppeliarobotics.com/helpFiles/en/commonPropertiesDialog.htm">object common properties</a> we enable <strong>Object is model base</strong>. We also enable <strong>Object/model can transfer or accept DNA</strong>. A model bounding box appeared, encompassing the whole robot. The bounding box however appears to be too large: this is because the bounding box also encompasses the invisible items, such as the joints. We now exclude the joints from the model bounding box by enabling the <strong>Don't show as inside model selection</strong> item for all joints. We could do the same procedure for all invisible items in our model. This is also a useful option in order to also exclude large sensors or other items from the model bounding box. We now have following situation:</p>
+<p>中譯:</p>
+<p>為模型庫起一個簡單的名字是很好而且更合乎邏輯的，因為模型庫也將代表模型本身。 因此，我們將robot重命名為robot_visibleBase，並將robot_dyn重命名為robot。 現在我們選擇層次結構樹的基礎（即對像機械手臂），並在對象公共屬性中啟用``對像是模型基礎''。 我們還使對象/模型可以轉移或接受DNA。 出現了一個模型包圍盒，包圍了整個機器人。 但是，邊界框似乎太大：這是因為邊界框還包含不可見的項，例如關節。 現在，通過對所有關節啟用“不顯示為內部模型”選擇項，將關節從模型邊界框中排除。 我們可以對模型中的所有不可見項執行相同的過程。 這也是一個有用的選項，可以將大型傳感器或其他項目也排除在模型邊界框之外。 我們現在有以下情況：</p>
+<p>原文:</p>
+<p>We now protect our model from accidental modification. We select all visible objects in the robot, then enable <strong>Select base of model instead</strong>: if we now click a visible link in the scene, the base of the robot will be selected instead. This allows us to manipulate the model as if it was a single object. We can still select visible objects in the robot via control-shift-clicking in the scene, or by selecting the object in the scene hierarchy. We now put the robot into a correct default position/orientation. First, we save current scene as a reference (e.g. if at a later stage we need to import CAD data that have the same orientation at the curent robot). Then we select the model and <a href="http://www.coppeliarobotics.com/helpFiles/en/coordinateDialog.htm">modify its position/orientation</a> appropriately. It is considered good practice to position the model (i.e. its base object) at X=0 and Y=0.</p>
+<p>中譯:</p>
+<p>現在，我們保護模型免受意外修改。 我們選擇機器人中的所有可見對象，然後啟用“選擇模型的基礎”：如果現在單擊場景中的可見鏈接，則會改為選擇機器人的基礎。 這使我們可以像對待單個對像一樣操作模型。 我們仍然可以通過按住Shift鍵並單擊場景或在場景層次中選擇對象來選擇機器人中的可見對象。 現在，我們將機器人置於正確的默認位置/方向。 首先，我們將當前場景保存為參考（例如，如果稍後需要在當前機器人上導入方向相同的CAD數據）。 然後，我們選擇模型並適當修改其位置/方向。 將模型（即其基礎對象）定位在X = 0和Y = 0處被認為是一種好習慣。</p>
+<p>原文:</p>
+<p>We now run the simulation: the robot will collapse, since the joints are not controlled by default. <a href="http://www.coppeliarobotics.com/helpFiles/en/buildingAModelTutorial.htm#joints">When we added the joints in the previous stage</a>, we created joints in force/torque mode, but their motor or controller was disabled (by default). We can now adjust our joints to our requirements. In our case, we want a simple PID controller for each one of them. In the joint dynamic properties, we click <strong>Motor enabled</strong> and adjust the <strong>maximum torque</strong>. We then click <strong>Control loop enabled</strong> and select <strong>Position control (PID)</strong>. We now run the simulation again: the robot should hold its position. Try to switch the current physics engine to see if the behaviour is consistent across all supported physics engines. You can do this via the appropriate <a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm#toolbars">toolbar button</a>, or in the <a href="http://www.coppeliarobotics.com/helpFiles/en/dynamicsDialog.htm">general dynamics properties</a>.</p>
+<p>During simulation, we now verify the scene dynamic content via the <a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm#toolbars">Dynamic content visualization &amp; verification toolbar button</a>. Now, only items that are taken into account by the physics engine will be display, and the display is <a href="http://www.coppeliarobotics.com/helpFiles/en/designingDynamicSimulations.htm#dynamicContentVisualization">color-coded</a>.</p>
+<p>中譯:</p>
+<p>現在我們運行模擬：由於默認情況下關節不受控制，因此機器人將解離。在上一階段添加關節時，我們以力/扭矩模式創建了關節，但其電動機或控制器已禁用（默認情況下）。現在，我們可以根據需要調整關節。在我們的案例中，我們希望為每個控制器都提供一個簡單的PID控制器。在關節動態屬性中，點擊“啟用電機”並調整最大扭矩。然後，點擊啟用控制環，然後選擇位置控制（PID）。現在，我們再次運行仿真：機器人應保持其位置。嘗試切換當前的物理引擎，以查看行為在所有受支持的物理引擎之間是否一致。您可以通過相應的工具欄按鈕或在常規動力學屬性中執行此操作。</p>
+<p>在仿真過程中，我們現在通過“動態內容可視化和驗證”工具欄按鈕來驗證場景動態內容。現在，將僅顯示物理引擎考慮的項目，並且該顯示使用顏色編碼。</p>
+<hr/>
+<p><strong>Webots User Guide 1:</strong></p>
+<p><strong>原文:</strong></p>
+<p>Now, changing the radius field of the first <span><a href="https://cyberbotics.com/doc/reference/sphere">Sphere</a></span> node also modifies its boundingObject.</p>
+<p>For convenience, the boundingObject field accepts also the <span><a href="https://cyberbotics.com/doc/reference/shape">Shape</a></span> node (rather than the <span><a href="https://cyberbotics.com/doc/reference/sphere">Sphere</a></span> node directly). It would be also possible to use the same DEF-USE mechanism at the <span><a href="https://cyberbotics.com/doc/reference/shape">Shape</a></span> level as shown in <span><a href="https://cyberbotics.com/doc/guide/tutorial-2-modification-of-the-environment#def-use-mechanism-applied-on-the-shape-node-of-a-solid">this figure</a></span>. For now the greatest benefit is being able to also use this <span><a href="https://cyberbotics.com/doc/reference/shape">Shape</a></span> directly for graphical purposes. Later this mechanism will turn out to be very useful for some sensors.</p>
+<p><strong>中譯:</strong></p>
+<p>現在，更改第一個Sphere節點的半徑字段也會修改其boundingObject。</p>
+<p>為了方便起見，boundingObject字段還接受Shape節點（而不是直接接受Sphere節點）。 如圖所示，也可以在Shape級別使用相同的DEF-USE機制。 到目前為止，最大的好處就是也可以直接將此Shape用於圖形目的。 後來，對於某些傳感器，該機制將變得非常有用。</p>
+<p><strong>原文:</strong></p>
+<p></p>
+<p><strong>Hands-on #7</strong>: Create a second ball with the same parameters but using the <a href="https://cyberbotics.com/doc/reference/shape">Shape</a> node (rather than the <a href="https://cyberbotics.com/doc/reference/sphere">Sphere</a> node directly) for the DEF-USE mechanism.</p>
+<p><strong>中譯:</strong></p>
+<p>動手練習7：使用DEF-USE機制的Shape節點（而不是直接使用Sphere節點）創建具有相同參數的第二個球。</p>
+<hr/>
+<p><strong>W17心得:</strong></p>
+<p><span>本周的測驗讓我們把越野車的模組導入到Vrep，並增加圓桿讓支架再越過障礙物時能穩定通過，雖然距離獨立設計還很久，但我希望下學期的課程。</span></p>
+<p><br/><strong>W17個人任務:</strong></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/5Eu5uiQxTNA" width="560"></iframe></strong></p>
 <hr/>
 <h1>Note</h1>
 <p><strong>Personal :</strong></p>
