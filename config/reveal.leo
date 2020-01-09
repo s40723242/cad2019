@@ -624,7 +624,7 @@ Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
 </t>
 <t tx="leo.20200109223111.2"># [Week 17](https://s40723242.github.io/cad2019/content/week12.html)
 
-* 越野車添加阻尼
+* 越野車添加阻尼查驗
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Eu5uiQxTNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
