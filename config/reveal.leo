@@ -63,6 +63,9 @@
 <v t="leo.20200109223111.1"><vh>w17</vh>
 <v t="leo.20200109223111.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200110151200.1"><vh>w18</vh>
+<v t="leo.20200110151200.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -353,7 +356,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191107233132.2"># [Week7](https://s40723242.github.io/cad2019/content/Week-7.html)
+<t tx="leo.20191107233132.2"># [Week7](https://s40723242.github.io/cad2019/content/Week7.html)
 
 * Solvespace 編譯:參數化零組件繪製-About中加上學號
 
@@ -371,7 +374,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191107233137.2"># [Week 6](https://s40723242.github.io/cad2019/content/Week-6.html)
+<t tx="leo.20191107233137.2"># [Week 6](https://s40723242.github.io/cad2019/content/Week6.html)
 
 * Task1:參數化零組件繪製
 
@@ -546,7 +549,7 @@ Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
 
 						
 </t>
-<t tx="leo.20200109205622.2"># [Week 17](https://s40723242.github.io/cad2019/content/week12.html)
+<t tx="leo.20200109205622.2"># [Week 17](https://s40723242.github.io/cad2019/content/week17.html)
 
 * W17協同任務-1:編譯Model definition及Webots User Guide 1內容整理
 
@@ -622,11 +625,28 @@ Created by [s40723242](https://s40723242.github.io/cad2019/content/index.html)
 
 						
 </t>
-<t tx="leo.20200109223111.2"># [Week 17](https://s40723242.github.io/cad2019/content/week12.html)
+<t tx="leo.20200109223111.2"># [Week 17](https://s40723242.github.io/cad2019/content/week17.html)
 
 * 越野車添加阻尼查驗
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Eu5uiQxTNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+[My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
+</t>
+<t tx="leo.20200110151200.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110151200.2"># [Week 17](https://s40723242.github.io/cad2019/content/week12.html)
+
+* 期末查驗報告
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DXwy_XwPXy4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [My youtube](https://www.youtube.com/channel/UCiiNBG9Qqxf5nnlS37vl2Rw?view_as=subscriber)
 </t>
